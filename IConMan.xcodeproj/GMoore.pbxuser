@@ -2,7 +2,7 @@
 {
 	1D3623240D0F684500981E51 /* IConManAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {624, 675}}";
+			sepNavIntBoundsRect = "{{0, 0}, {918, 303}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 466}";
 			sepNavWindowFrame = "{{15, 322}, {683, 803}}";
@@ -49,7 +49,7 @@
 					20,
 					740,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -68,6 +68,8 @@
 			PBXWorkspaceStateSaveDate = 326602896;
 		};
 		perUserProjectItems = {
+			A1652E1313783F2600E8E063 /* PBXTextBookmark */ = A1652E1313783F2600E8E063 /* PBXTextBookmark */;
+			A1652E1413783F2600E8E063 /* PBXTextBookmark */ = A1652E1413783F2600E8E063 /* PBXTextBookmark */;
 			A170897F1377712C0069EB8E = A170897F1377712C0069EB8E /* PBXBookmark */;
 			A17089A0137788B80069EB8E = A17089A0137788B80069EB8E /* PBXTextBookmark */;
 			A17089A1137788B80069EB8E = A17089A1137788B80069EB8E /* PBXTextBookmark */;
@@ -80,6 +82,26 @@
 		sourceControlManager = A1708974137713280069EB8E /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	A1652E1313783F2600E8E063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* IConManAppDelegate.h */;
+		name = "IConManAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 466;
+		vrLoc = 0;
+	};
+	A1652E1413783F2600E8E063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* IConManAppDelegate.h */;
+		name = "IConManAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 466;
+		vrLoc = 0;
 	};
 	A170895E1377130B0069EB8E /* IConMan */ = {
 		isa = PBXExecutable;
