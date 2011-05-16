@@ -16,7 +16,90 @@
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
 		A1708979137713820069EB8E /* Meeting.m in Sources */ = {isa = PBXBuildFile; fileRef = A1708978137713820069EB8E /* Meeting.m */; };
+		A1D2FF1D13785098003BC230 /* ConManConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D2FF1C13785098003BC230 /* ConManConnector.m */; };
+		A1D2FF4513785319003BC230 /* libRestKitCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D2FF4013785308003BC230 /* libRestKitCoreData.a */; };
+		A1D2FF461378531C003BC230 /* libRestKitJSONParserJSONKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D2FF3C13785308003BC230 /* libRestKitJSONParserJSONKit.a */; };
+		A1D2FF4713785320003BC230 /* libRestKitNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D2FF3213785308003BC230 /* libRestKitNetwork.a */; };
+		A1D2FF4813785321003BC230 /* libRestKitObjectMapping.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D2FF3413785308003BC230 /* libRestKitObjectMapping.a */; };
+		A1D2FF4913785324003BC230 /* libRestKitSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D2FF3613785308003BC230 /* libRestKitSupport.a */; };
+		A1D2FF6F137854A8003BC230 /* MeetingFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D2FF6E137854A8003BC230 /* MeetingFinder.m */; };
+		A1D2FFC2137DCCA6003BC230 /* MeetingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D2FFC1137DCCA6003BC230 /* MeetingCell.m */; };
+		A1D2FFD9137EDAF7003BC230 /* MeetingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D2FFD8137EDAF7003BC230 /* MeetingViewController.m */; };
+		A1D2FFDC137EDB0B003BC230 /* MeetingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1D2FFDB137EDB0B003BC230 /* MeetingViewController.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1D2FF3113785308003BC230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D2FF1E13785307003BC230 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A07FC1255161B00976E89;
+			remoteInfo = RestKitNetwork;
+		};
+		A1D2FF3313785308003BC230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D2FF1E13785307003BC230 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A08031255162C00976E89;
+			remoteInfo = RestKitObjectMapping;
+		};
+		A1D2FF3513785308003BC230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D2FF1E13785307003BC230 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A080C12551D3000976E89;
+			remoteInfo = RestKitSupport;
+		};
+		A1D2FF3713785308003BC230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D2FF1E13785307003BC230 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2590E64F125231F600531FA8;
+			remoteInfo = "RestKitJSONParser+YAJL";
+		};
+		A1D2FF3913785308003BC230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D2FF1E13785307003BC230 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2590E66B1252353700531FA8;
+			remoteInfo = "RestKitJSONParser+SBJSON";
+		};
+		A1D2FF3B13785308003BC230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D2FF1E13785307003BC230 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73057FD11331AD2E001908EE;
+			remoteInfo = "RestKitJSONParser+JSONKit";
+		};
+		A1D2FF3D13785308003BC230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D2FF1E13785307003BC230 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25BD43BD1340315800DBACDD;
+			remoteInfo = "RestKitXMLParser+Libxml";
+		};
+		A1D2FF3F13785308003BC230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D2FF1E13785307003BC230 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A081412551D5300976E89;
+			remoteInfo = RestKitCoreData;
+		};
+		A1D2FF4113785308003BC230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D2FF1E13785307003BC230 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2523360511E79F090048F9B4;
+			remoteInfo = RestKitThree20;
+		};
+		A1D2FF4313785308003BC230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D2FF1E13785307003BC230 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F6C39A510FE5C95008F47C5;
+			remoteInfo = UISpec;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,6 +117,16 @@
 		8D1107310486CEB800E47090 /* IConMan-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IConMan-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		A1708977137713820069EB8E /* Meeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meeting.h; sourceTree = "<group>"; };
 		A1708978137713820069EB8E /* Meeting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meeting.m; sourceTree = "<group>"; };
+		A1D2FF1B13785098003BC230 /* ConManConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConManConnector.h; sourceTree = "<group>"; };
+		A1D2FF1C13785098003BC230 /* ConManConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConManConnector.m; sourceTree = "<group>"; };
+		A1D2FF1E13785307003BC230 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = Library/RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		A1D2FF6D137854A8003BC230 /* MeetingFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetingFinder.h; sourceTree = "<group>"; };
+		A1D2FF6E137854A8003BC230 /* MeetingFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetingFinder.m; sourceTree = "<group>"; };
+		A1D2FFC0137DCCA6003BC230 /* MeetingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetingCell.h; sourceTree = "<group>"; };
+		A1D2FFC1137DCCA6003BC230 /* MeetingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetingCell.m; sourceTree = "<group>"; };
+		A1D2FFD8137EDAF7003BC230 /* MeetingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetingViewController.m; sourceTree = "<group>"; };
+		A1D2FFDA137EDB01003BC230 /* MeetingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetingViewController.h; sourceTree = "<group>"; };
+		A1D2FFDB137EDB0B003BC230 /* MeetingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeetingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +137,11 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				A1D2FF4513785319003BC230 /* libRestKitCoreData.a in Frameworks */,
+				A1D2FF461378531C003BC230 /* libRestKitJSONParserJSONKit.a in Frameworks */,
+				A1D2FF4713785320003BC230 /* libRestKitNetwork.a in Frameworks */,
+				A1D2FF4813785321003BC230 /* libRestKitObjectMapping.a in Frameworks */,
+				A1D2FF4913785324003BC230 /* libRestKitSupport.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,10 +153,19 @@
 			children = (
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				A1D2FFD8137EDAF7003BC230 /* MeetingViewController.m */,
+				A1D2FFDB137EDB0B003BC230 /* MeetingViewController.xib */,
+				A1D2FFDA137EDB01003BC230 /* MeetingViewController.h */,
 				1D3623240D0F684500981E51 /* IConManAppDelegate.h */,
 				1D3623250D0F684500981E51 /* IConManAppDelegate.m */,
 				A1708977137713820069EB8E /* Meeting.h */,
 				A1708978137713820069EB8E /* Meeting.m */,
+				A1D2FF1B13785098003BC230 /* ConManConnector.h */,
+				A1D2FF1C13785098003BC230 /* ConManConnector.m */,
+				A1D2FF6D137854A8003BC230 /* MeetingFinder.h */,
+				A1D2FF6E137854A8003BC230 /* MeetingFinder.m */,
+				A1D2FFC0137DCCA6003BC230 /* MeetingCell.h */,
+				A1D2FFC1137DCCA6003BC230 /* MeetingCell.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -74,6 +181,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				A1D2FF1E13785307003BC230 /* RestKit.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -110,6 +218,23 @@
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1D2FF1F13785307003BC230 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1D2FF3213785308003BC230 /* libRestKitNetwork.a */,
+				A1D2FF3413785308003BC230 /* libRestKitObjectMapping.a */,
+				A1D2FF3613785308003BC230 /* libRestKitSupport.a */,
+				A1D2FF3813785308003BC230 /* libRestKitJSONParserYAJL.a */,
+				A1D2FF3A13785308003BC230 /* libRestKitJSONParserSBJSON.a */,
+				A1D2FF3C13785308003BC230 /* libRestKitJSONParserJSONKit.a */,
+				A1D2FF3E13785308003BC230 /* libRestKitXMLParserLibxml.a */,
+				A1D2FF4013785308003BC230 /* libRestKitCoreData.a */,
+				A1D2FF4213785308003BC230 /* libRestKitThree20.a */,
+				A1D2FF4413785308003BC230 /* UISpec.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,12 +275,91 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A1D2FF1F13785307003BC230 /* Products */;
+					ProjectRef = A1D2FF1E13785307003BC230 /* RestKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* IConMan */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A1D2FF3213785308003BC230 /* libRestKitNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitNetwork.a;
+			remoteRef = A1D2FF3113785308003BC230 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1D2FF3413785308003BC230 /* libRestKitObjectMapping.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitObjectMapping.a;
+			remoteRef = A1D2FF3313785308003BC230 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1D2FF3613785308003BC230 /* libRestKitSupport.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitSupport.a;
+			remoteRef = A1D2FF3513785308003BC230 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1D2FF3813785308003BC230 /* libRestKitJSONParserYAJL.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserYAJL.a;
+			remoteRef = A1D2FF3713785308003BC230 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1D2FF3A13785308003BC230 /* libRestKitJSONParserSBJSON.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserSBJSON.a;
+			remoteRef = A1D2FF3913785308003BC230 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1D2FF3C13785308003BC230 /* libRestKitJSONParserJSONKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserJSONKit.a;
+			remoteRef = A1D2FF3B13785308003BC230 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1D2FF3E13785308003BC230 /* libRestKitXMLParserLibxml.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitXMLParserLibxml.a;
+			remoteRef = A1D2FF3D13785308003BC230 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1D2FF4013785308003BC230 /* libRestKitCoreData.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitCoreData.a;
+			remoteRef = A1D2FF3F13785308003BC230 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1D2FF4213785308003BC230 /* libRestKitThree20.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitThree20.a;
+			remoteRef = A1D2FF4113785308003BC230 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1D2FF4413785308003BC230 /* UISpec.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UISpec.app;
+			remoteRef = A1D2FF4313785308003BC230 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1D60588D0D05DD3D006BFB54 /* Resources */ = {
@@ -164,6 +368,7 @@
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				A1D2FFDC137EDB0B003BC230 /* MeetingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +383,10 @@
 				1D3623260D0F684500981E51 /* IConManAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
 				A1708979137713820069EB8E /* Meeting.m in Sources */,
+				A1D2FF1D13785098003BC230 /* ConManConnector.m in Sources */,
+				A1D2FF6F137854A8003BC230 /* MeetingFinder.m in Sources */,
+				A1D2FFC2137DCCA6003BC230 /* MeetingCell.m in Sources */,
+				A1D2FFD9137EDAF7003BC230 /* MeetingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

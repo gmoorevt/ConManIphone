@@ -6,14 +6,19 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 #import <UIKit/UIKit.h>
-#import ConManConnector
+#import "ConManConnector.h"
+#import "MeetingFinder.h"
+#import "MeetingCell.h"
 
 
-@interface RootViewController : UITableViewController {
-	ConManConnector *conmanCon; //finds new meetings
-	NSArray *meetings;//collection of meeting objects
-	UIActivityIndicatorView *activityView // shows hourglass during download
-}
+@interface RootViewController : UITableViewController 
+	<MeetingFinderDelegate>
+	{
+		MeetingFinder *meetingFinder; //finds meetings
+		NSArray *meetings;
+		UIActivityIndicatorView *activityView;
+	}
+	
 
 //declare meetins as a property
 @property (nonatomic, retain) NSArray *meetings;
