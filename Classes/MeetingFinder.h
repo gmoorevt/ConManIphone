@@ -8,17 +8,20 @@
 
 #import <Foundation/Foundation.h>
 #import "Meeting.h"
+#import <RestKit/RestKit.h>
+#import <JSON/JSON.h>
 
-@protocol MeetingFinderDelegate;
+
+@protocol MeetingFinderDelegate, RKRequestDelegate;
 
 @interface MeetingFinder : NSObject {
 	id<MeetingFinderDelegate> delegate;
-	Meeting *meeting1;
-	Meeting *meeting2;
-	Meeting *currentMeeting;
+	Meeting *meeting;
 	NSMutableArray *meetings;
 	NSMutableString *currentString;
 	BOOL isMeeting;
+	NSDictionary *params;
+	SBJsonParser *parser;
 } //end instance variable declarations
 
 @property (nonatomic,assign) id<MeetingFinderDelegate> delegate;
@@ -33,3 +36,8 @@
 	 didFindMeetings:(NSArray *)meetings;
 @end  // end protocol MeetingFinderDelegate
 
+@protocol RKRequestDelegate
+-(void)request:(RKRequest *)request didFailLoadWithError:(NSError *)error;
+-(void)request:(RKRequest *)request didLoadResponse:(RKResponse *)response;
+-(void)requestDidTimeout:(RKRequest *)request;
+@end

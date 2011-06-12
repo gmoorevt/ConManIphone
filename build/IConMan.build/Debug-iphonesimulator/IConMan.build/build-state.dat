@@ -1,0 +1,4569 @@
+TIConMan
+v7
+r0
+t329594995.320901
+cCheck dependencies
+cProcessInfoPlistFile /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/Info.plist IConMan-Info.plist
+cCompileXIB /Users/GMoore/ConManIphone/MainWindow.xib
+cCompileXIB /Users/GMoore/ConManIphone/RootViewController.xib
+cCompileXIB /Users/GMoore/ConManIphone/Classes/MeetingViewController.xib
+cCpResource build/Debug-iphonesimulator/IConMan.app/conference_calls.json conference_calls.json
+cCpResource build/Debug-iphonesimulator/IConMan.app/temp_conf_call.json temp_conf_call.json
+cCpResource build/Debug-iphonesimulator/IConMan.app/Conference-Device.gif Conference-Device.gif
+cCpResource "build/Debug-iphonesimulator/IConMan.app/1306085556_Conference Device.png" "1306085556_Conference Device.png"
+cCpResource build/Debug-iphonesimulator/IConMan.app/Phone.png Phone.png
+cProcessPCH /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-bpjnnrywhmoctldhtersvsyvebat/IConMan_Prefix.pch.gch IConMan_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/main.o /Users/GMoore/ConManIphone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/IConManAppDelegate.o /Users/GMoore/ConManIphone/Classes/IConManAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/RootViewController.o /Users/GMoore/ConManIphone/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/Meeting.o /Users/GMoore/ConManIphone/Classes/Meeting.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/ConManConnector.o /Users/GMoore/ConManIphone/Classes/ConManConnector.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingFinder.o /Users/GMoore/ConManIphone/Classes/MeetingFinder.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingCell.o /Users/GMoore/ConManIphone/Classes/MeetingCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingViewController.o /Users/GMoore/ConManIphone/Classes/MeetingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingDetail.o /Users/GMoore/ConManIphone/Classes/MeetingDetail.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/IConMan normal i386
+cGenerateDSYMFile /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app.dSYM /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/IConMan
+cTouch /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004D54CF7C00000000001C41F0
+t1297403772
+s1851888
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004D54D02800000000001D6EC0
+t1297403944
+s1928896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004D54D01A000000000000046B
+t1297403930
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004D54D0BC000000000005C090
+t1297404092
+s376976
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004D54CEF80000000000001A58
+t1297403640
+s6744
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004D54CF0700000000000689C0
+t1297403655
+s428480
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
+c000000004D4F7A2B0000000000001B19
+t1297054251
+s6937
+
+N/Users/GMoore/ConManIphone/1306085478_preferences-calendar-and-tasks.png
+c000000004DD948740000000000002E93
+t1306085492
+s11923
+
+N/Users/GMoore/ConManIphone/1306085556_Conference Device.png
+c000000004DD948C30000000000002074
+t1306085571
+s8308
+
+N/Users/GMoore/ConManIphone/Classes/ConManConnector.h
+c000000004DC9F8680000000000000275
+t1305081960
+s629
+i<Foundation/Foundation.h>
+
+N/Users/GMoore/ConManIphone/Classes/ConManConnector.m
+c000000004DC8191800000000000000D2
+t1304959256
+s210
+i"ConManConnector.h"
+
+N/Users/GMoore/ConManIphone/Classes/IConManAppDelegate.h
+c000000004DC6DB8B00000000000001D2
+t1304877963
+s466
+i<UIKit/UIKit.h>
+
+N/Users/GMoore/ConManIphone/Classes/IConManAppDelegate.m
+c000000004DC6DB8B0000000000000ABE
+t1304877963
+s2750
+i"IConManAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/GMoore/ConManIphone/Classes/Meeting.h
+c000000004DDC057C0000000000000570
+t1306264956
+s1392
+i<Foundation/Foundation.h>
+
+N/Users/GMoore/ConManIphone/Classes/Meeting.m
+c000000004DDC061E00000000000001BC
+t1306265118
+s444
+i"Meeting.h"
+
+N/Users/GMoore/ConManIphone/Classes/MeetingCell.h
+c000000004DDC15420000000000000205
+t1306268994
+s517
+i<UIKit/UIKit.h>
+
+N/Users/GMoore/ConManIphone/Classes/MeetingCell.m
+c000000004DDC588E00000000000009DA
+t1306286222
+s2522
+i"MeetingCell.h"
+
+N/Users/GMoore/ConManIphone/Classes/MeetingDetail.h
+c000000004DD1199500000000000000D4
+t1305549205
+s212
+i<UIKit/UIKit.h>
+
+N/Users/GMoore/ConManIphone/Classes/MeetingDetail.m
+c000000004DD119950000000000000257
+t1305549205
+s599
+i"MeetingDetail.h"
+
+N/Users/GMoore/ConManIphone/Classes/MeetingFinder.h
+c000000004DDC04B500000000000004C3
+t1306264757
+s1219
+i<Foundation/Foundation.h>
+i"Meeting.h"
+i<RestKit/RestKit.h>
+i<JSON/JSON.h>
+
+N/Users/GMoore/ConManIphone/Classes/MeetingFinder.m
+c000000004DF500F20000000000001514
+t1307902194
+s5396
+i"MeetingFinder.h"
+i<JSON/JSON.h>
+
+N/Users/GMoore/ConManIphone/Classes/MeetingViewController.h
+c000000004DEF663E00000000000001C1
+t1307534910
+s449
+i<UIKit/UIKit.h>
+i"Meeting.h"
+
+N/Users/GMoore/ConManIphone/Classes/MeetingViewController.m
+c000000004DEF659500000000000005DA
+t1307534741
+s1498
+i"MeetingViewController.h"
+
+N/Users/GMoore/ConManIphone/Classes/MeetingViewController.xib
+c000000004DF0C013000000000000617A
+t1307623443
+s24954
+
+N/Users/GMoore/ConManIphone/Classes/RootViewController.h
+c000000004DDC57850000000000000294
+t1306285957
+s660
+i<UIKit/UIKit.h>
+i"ConManConnector.h"
+i"MeetingFinder.h"
+i"MeetingCell.h"
+
+N/Users/GMoore/ConManIphone/Classes/RootViewController.m
+c000000004DE70C820000000000001323
+t1306987650
+s4899
+i"RootViewController.h"
+
+N/Users/GMoore/ConManIphone/Conference-Device.gif
+c000000004DDC09970000000000000E17
+t1306266007
+s3607
+
+N/Users/GMoore/ConManIphone/IConMan_Prefix.pch
+c000000004DC6DB8B0000000000000140
+t1304877963
+s320
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/.gitignore
+c000000004D4569480000000000000088
+t1296394568
+s136
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Changes.markdown
+c000000004D4569480000000000002680
+t1296394568
+s9856
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/NSObject+JSON.h
+c000000004D4569480000000000000899
+t1296394568
+s2201
+i<Foundation/Foundation.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/NSObject+JSON.m
+c000000004D45694800000000000008C2
+t1296394568
+s2242
+i"NSObject+JSON.h"
+i"SBJsonWriter.h"
+i"SBJsonParser.h"
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonParser.h
+c000000004D4569480000000000000FCC
+t1296394568
+s4044
+i<Foundation/Foundation.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonParser.m
+c000000004D4569480000000000000D75
+t1296394568
+s3445
+i"SBJsonParser.h"
+i"SBJsonStreamParser.h"
+i"SBJsonStreamParserAdapter.h"
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonStreamParser.h
+c000000004D4569480000000000001163
+t1296394568
+s4451
+i<Foundation/Foundation.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonStreamParser.m
+c000000004D4569480000000000001E93
+t1296394568
+s7827
+i"SBJsonStreamParser.h"
+i"SBJsonTokeniser.h"
+i"SBJsonStreamParserState.h"
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonStreamParserAdapter.h
+c000000004D4569480000000000000C3B
+t1296394568
+s3131
+i<Foundation/Foundation.h>
+i"SBJsonStreamParser.h"
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonStreamParserAdapter.m
+c000000004D45694800000000000011A1
+t1296394568
+s4513
+i"SBJsonStreamParserAdapter.h"
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonStreamParserState.h
+c000000004D4569480000000000000C6F
+t1296394568
+s3183
+i<Foundation/Foundation.h>
+i"SBJsonTokeniser.h"
+i"SBJsonStreamParser.h"
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonStreamParserState.m
+c000000004D4569480000000000002754
+t1296394568
+s10068
+i"SBJsonStreamParserState.h"
+i"SBJsonStreamParser.h"
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonStreamWriter.h
+c000000004D45694800000000000015C3
+t1296394568
+s5571
+i<Foundation/Foundation.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonStreamWriter.m
+c000000004D456948000000000000280F
+t1296394568
+s10255
+i"SBJsonStreamWriter.h"
+i"SBJsonStreamWriterState.h"
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonStreamWriterState.h
+c000000004D4569480000000000000B5D
+t1296394568
+s2909
+i<Foundation/Foundation.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonStreamWriterState.m
+c000000004D456948000000000000136F
+t1296394568
+s4975
+i"SBJsonStreamWriterState.h"
+i"SBJsonStreamWriter.h"
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonTokeniser.h
+c000000004D4569480000000000000923
+t1296394568
+s2339
+i<Foundation/Foundation.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonTokeniser.m
+c000000004D45694800000000000027C0
+t1296394568
+s10176
+i"SBJsonTokeniser.h"
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonWriter.h
+c000000004D45694800000000000012F9
+t1296394568
+s4857
+i<Foundation/Foundation.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonWriter.m
+c000000004D4569480000000000000C90
+t1296394568
+s3216
+i"SBJsonWriter.h"
+i"SBJsonStreamWriter.h"
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Contrib/json2objc.html
+c000000004D456948000000000000565C
+t1296394568
+s22108
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Credits.markdown
+c000000004D45694800000000000007B3
+t1296394568
+s1971
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/Mac/ExternalLinkage/English.lproj/InfoPlist.strings
+c000000004D456948000000000000002D
+t1296394568
+s45
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/Mac/ExternalLinkage/English.lproj/MainMenu.xib
+c000000004D456948000000000002BBC3
+t1296394568
+s179139
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/Mac/ExternalLinkage/ExternalLinkage-Info.plist
+c000000004D45694800000000000003EA
+t1296394568
+s1002
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/Mac/ExternalLinkage/ExternalLinkageAppDelegate.h
+c000000004D4569480000000000000155
+t1296394568
+s341
+i<Cocoa/Cocoa.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/Mac/ExternalLinkage/ExternalLinkageAppDelegate.m
+c000000004D45694800000000000001BF
+t1296394568
+s447
+i"ExternalLinkageAppDelegate.h"
+i<JSON/JSON.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/Mac/ExternalLinkage/Readme.md
+c000000004D45694800000000000006D9
+t1296394568
+s1753
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/Mac/ExternalLinkage/main.m
+c000000004D4569480000000000000107
+t1296394568
+s263
+i<Cocoa/Cocoa.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/Classes/TwitterStreamAppDelegate.h
+c000000004D4569480000000000000205
+t1296394568
+s517
+i<UIKit/UIKit.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/Classes/TwitterStreamAppDelegate.m
+c000000004D4569480000000000000AAD
+t1296394568
+s2733
+i"TwitterStreamAppDelegate.h"
+i"TwitterStreamViewController.h"
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/Classes/TwitterStreamViewController.h
+c000000004D45694800000000000001FC
+t1296394568
+s508
+i<UIKit/UIKit.h>
+i<JSON/JSON.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/Classes/TwitterStreamViewController.m
+c000000004D4569480000000000000E48
+t1296394568
+s3656
+i"TwitterStreamViewController.h"
+i<JSON/JSON.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/MainWindow.xib
+c000000004D4569480000000000004E71
+t1296394568
+s20081
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/Readme.markdown
+c000000004D456948000000000000071F
+t1296394568
+s1823
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/TwitterStream-Info.plist
+c000000004D456948000000000000038D
+t1296394568
+s909
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/TwitterStreamViewController.xib
+c000000004D456948000000000000675F
+t1296394568
+s26463
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphonesimulator/TwitterStream.app
+c000000004DD6F2C800000000000000EE
+t1305932488
+s238
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphonesimulator/TwitterStream.app.dSYM
+c000000004DD6F2C80000000000000066
+t1305932488
+s102
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/TwitterStream.dep
+c000000004DD6F2B700000000000012B6
+t1305932471
+s4790
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/TwitterStream~.dep
+c000000004DD6F2AC00000000000012B6
+t1305932460
+s4790
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/build-state.dat
+c000000004DD6F2B70000000000002A5E
+t1305932471
+s10846
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/build-state~.dat
+c000000004DD6F2AC0000000000002A5E
+t1305932460
+s10846
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphonesimulator/TwitterStream.build/Objects-normal/i386/TwitterStream.LinkFileList
+c000000004DD6F2C60000000000000220
+t1305932486
+s544
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphonesimulator/TwitterStream.build/Objects-normal/i386/TwitterStreamAppDelegate.o
+c000000004DD6F2C8000000000000D0B4
+t1305932488
+s53428
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphonesimulator/TwitterStream.build/Objects-normal/i386/TwitterStreamViewController.o
+c000000004DD6F2C8000000000000CDD8
+t1305932488
+s52696
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphonesimulator/TwitterStream.build/Objects-normal/i386/main.o
+c000000004DD6F2C800000000000018E8
+t1305932488
+s6376
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphonesimulator/TwitterStream.build/TwitterStream-all-target-headers.hmap
+c000000004DD6F2C60000000000000319
+t1305932486
+s793
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphonesimulator/TwitterStream.build/TwitterStream-generated-files.hmap
+c000000004DD6F2C60000000000000079
+t1305932486
+s121
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphonesimulator/TwitterStream.build/TwitterStream-own-target-headers.hmap
+c000000004DD6F2C60000000000000319
+t1305932486
+s793
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphonesimulator/TwitterStream.build/TwitterStream-project-headers.hmap
+c000000004DD6F2C60000000000000405
+t1305932486
+s1029
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphonesimulator/TwitterStream.build/TwitterStream.dep
+c000000004DD6F2C80000000000000ADA
+t1305932488
+s2778
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphonesimulator/TwitterStream.build/TwitterStream.hmap
+c000000004DD6F2C60000000000000705
+t1305932486
+s1797
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphonesimulator/TwitterStream.build/build-state.dat
+c000000004DD6F2C80000000000006C1B
+t1305932488
+s27675
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug/TwitterStream.build/TwitterStream.dep
+c000000004DD6F2A70000000000000471
+t1305932455
+s1137
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug/TwitterStream.build/build-state.dat
+c000000004DD6F2A70000000000000636
+t1305932455
+s1590
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/categories.pbxbtree
+c000000004DD715370000000000000554
+t1305941303
+s1364
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/cdecls.pbxbtree
+c000000004DD7153700000000000257AC
+t1305941303
+s153516
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/decls.pbxbtree
+c000000004DD715370000000000025260
+t1305941303
+s152160
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/files.pbxbtree
+c000000004DD715370000000000000BC8
+t1305941303
+s3016
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/imports.pbxbtree
+c000000004DD715370000000000002314
+t1305941303
+s8980
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/pbxindex.header
+c000000004DD715370000000000000018
+t1305941303
+s24
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/protocols.pbxbtree
+c000000004DD715370000000000000760
+t1305941303
+s1888
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/refs.pbxbtree
+c000000004DD71537000000000001C920
+t1305941303
+s117024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/strings.pbxstrings/control
+c000000004DD715370000000000040014
+t1305941303
+s262164
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/strings.pbxstrings/strings
+c000000004DD7153700000000000506DC
+t1305941303
+s329436
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/subclasses.pbxbtree
+c000000004DD715370000000000000720
+t1305941303
+s1824
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/symbols0.pbxsymbols
+c000000004DD71537000000000009FF88
+t1305941303
+s655240
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/main.m
+c000000004D4569480000000000000171
+t1296394568
+s369
+i<UIKit/UIKit.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Installation.markdown
+c000000004D456948000000000000058B
+t1296394568
+s1419
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/JSON-Info.plist
+c000000004D45694800000000000002A6
+t1296394568
+s678
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/LICENSE
+c000000004D45694800000000000005CC
+t1296394568
+s1484
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Readme.markdown
+c000000004D4569480000000000000324
+t1296394568
+s804
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/ReleaseChecklist.markdown
+c000000004D4569480000000000000094
+t1296394568
+s148
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Scripts/InstallDocumentation.sh
+c000000004D456948000000000000072D
+t1296394568
+s1837
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Scripts/RefreshOnlineDocs.sh
+c000000004D4569480000000000000219
+t1296394568
+s537
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests-Info.plist
+c000000004D456948000000000000026E
+t1296394568
+s622
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/array.json
+c000000004D456948000000000000003A
+t1296394568
+s58
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/array.json.pretty
+c000000004D4569480000000000000097
+t1296394568
+s151
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/array.json.terse
+c000000004D4569480000000000000036
+t1296394568
+s54
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/bool.json
+c000000004D456948000000000000000C
+t1296394568
+s12
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/bool.json.pretty
+c000000004D4569480000000000000014
+t1296394568
+s20
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/bool.json.terse
+c000000004D456948000000000000000D
+t1296394568
+s13
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/format.json
+c000000004D4569480000000000000037
+t1296394568
+s55
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/format.json.pretty
+c000000004D456948000000000000007B
+t1296394568
+s123
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/format.json.terse
+c000000004D4569480000000000000035
+t1296394568
+s53
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/json.org/1.json
+c000000004D45694800000000000002C2
+t1296394568
+s706
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/json.org/1.json.pretty
+c000000004D4569480000000000000252
+t1296394568
+s594
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/json.org/1.json.terse
+c000000004D4569480000000000000169
+t1296394568
+s361
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/json.org/2.json
+c000000004D45694800000000000000F2
+t1296394568
+s242
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/json.org/2.json.pretty
+c000000004D4569480000000000000164
+t1296394568
+s356
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/json.org/2.json.terse
+c000000004D45694800000000000000B8
+t1296394568
+s184
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/json.org/3.json
+c000000004D456948000000000000025E
+t1296394568
+s606
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/json.org/3.json.pretty
+c000000004D456948000000000000023D
+t1296394568
+s573
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/json.org/3.json.terse
+c000000004D4569480000000000000186
+t1296394568
+s390
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/json.org/4.json
+c000000004D4569480000000000000D8B
+t1296394568
+s3467
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/json.org/4.json.pretty
+c000000004D4569480000000000000E87
+t1296394568
+s3719
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/json.org/4.json.terse
+c000000004D4569480000000000000A97
+t1296394568
+s2711
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/json.org/5.json
+c000000004D4569480000000000000369
+t1296394568
+s873
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/json.org/5.json.pretty
+c000000004D45694800000000000004C3
+t1296394568
+s1219
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/json.org/5.json.terse
+c000000004D4569480000000000000266
+t1296394568
+s614
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/json.org/README
+c000000004D4569480000000000000024
+t1296394568
+s36
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/README
+c000000004D4569480000000000000025
+t1296394568
+s37
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail1.json
+c000000004D456948000000000000003C
+t1296394568
+s60
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail10.json
+c000000004D456948000000000000003A
+t1296394568
+s58
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail11.json
+c000000004D456948000000000000001D
+t1296394568
+s29
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail12.json
+c000000004D456948000000000000001F
+t1296394568
+s31
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail13.json
+c000000004D456948000000000000002B
+t1296394568
+s43
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail14.json
+c000000004D456948000000000000001F
+t1296394568
+s31
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail15.json
+c000000004D4569480000000000000022
+t1296394568
+s34
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail16.json
+c000000004D4569480000000000000008
+t1296394568
+s8
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail17.json
+c000000004D4569480000000000000022
+t1296394568
+s34
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail18.json
+c000000004D4569480000000000000032
+t1296394568
+s50
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail19.json
+c000000004D4569480000000000000016
+t1296394568
+s22
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail2.json
+c000000004D4569480000000000000011
+t1296394568
+s17
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail20.json
+c000000004D4569480000000000000017
+t1296394568
+s23
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail21.json
+c000000004D4569480000000000000020
+t1296394568
+s32
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail22.json
+c000000004D4569480000000000000021
+t1296394568
+s33
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail23.json
+c000000004D4569480000000000000014
+t1296394568
+s20
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail24.json
+c000000004D4569480000000000000010
+t1296394568
+s16
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail25.json
+c000000004D456948000000000000001D
+t1296394568
+s29
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail26.json
+c000000004D4569480000000000000026
+t1296394568
+s38
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail27.json
+c000000004D456948000000000000000E
+t1296394568
+s14
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail28.json
+c000000004D456948000000000000000F
+t1296394568
+s15
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail29.json
+c000000004D4569480000000000000004
+t1296394568
+s4
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail3.json
+c000000004D4569480000000000000025
+t1296394568
+s37
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail30.json
+c000000004D4569480000000000000005
+t1296394568
+s5
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail31.json
+c000000004D4569480000000000000007
+t1296394568
+s7
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail32.json
+c000000004D4569480000000000000028
+t1296394568
+s40
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail33.json
+c000000004D456948000000000000000C
+t1296394568
+s12
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail4.json
+c000000004D4569480000000000000010
+t1296394568
+s16
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail5.json
+c000000004D4569480000000000000018
+t1296394568
+s24
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail6.json
+c000000004D456948000000000000001A
+t1296394568
+s26
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail7.json
+c000000004D456948000000000000001A
+t1296394568
+s26
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail8.json
+c000000004D4569480000000000000010
+t1296394568
+s16
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail9.json
+c000000004D4569480000000000000016
+t1296394568
+s22
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/pass1.json
+c000000004D45694800000000000005A1
+t1296394568
+s1441
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/pass1.json.pretty
+c000000004D45694800000000000005A8
+t1296394568
+s1448
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/pass1.json.terse
+c000000004D4569480000000000000417
+t1296394568
+s1047
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/pass2.json
+c000000004D4569480000000000000034
+t1296394568
+s52
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/pass2.json.pretty
+c000000004D456948000000000000032D
+t1296394568
+s813
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/pass2.json.terse
+c000000004D4569480000000000000035
+t1296394568
+s53
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/pass3.json
+c000000004D4569480000000000000094
+t1296394568
+s148
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/pass3.json.pretty
+c000000004D4569480000000000000088
+t1296394568
+s136
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/pass3.json.terse
+c000000004D4569480000000000000074
+t1296394568
+s116
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/null.json
+c000000004D456948000000000000000B
+t1296394568
+s11
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/null.json.pretty
+c000000004D4569480000000000000013
+t1296394568
+s19
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/null.json.terse
+c000000004D456948000000000000000C
+t1296394568
+s12
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/number.json
+c000000004D4569480000000000000080
+t1296394568
+s128
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/number.json.pretty
+c000000004D456948000000000000009A
+t1296394568
+s154
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/number.json.terse
+c000000004D4569480000000000000069
+t1296394568
+s105
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/object.json
+c000000004D456948000000000000004A
+t1296394568
+s74
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/object.json.pretty
+c000000004D45694800000000000000A5
+t1296394568
+s165
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/object.json.terse
+c000000004D4569480000000000000046
+t1296394568
+s70
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/rfc4627/README
+c000000004D4569480000000000000037
+t1296394568
+s55
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/rfc4627/a.json
+c000000004D456948000000000000014D
+t1296394568
+s333
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/rfc4627/a.json.pretty
+c000000004D456948000000000000011A
+t1296394568
+s282
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/rfc4627/a.json.terse
+c000000004D45694800000000000000B6
+t1296394568
+s182
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/rfc4627/b.json
+c000000004D4569480000000000000213
+t1296394568
+s531
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/rfc4627/b.json.pretty
+c000000004D4569480000000000000184
+t1296394568
+s388
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/rfc4627/b.json.terse
+c000000004D4569480000000000000117
+t1296394568
+s279
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/string-ctrl.json
+c000000004D4569480000000000000165
+t1296394568
+s357
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/string-ctrl.json.pretty
+c000000004D456948000000000000019E
+t1296394568
+s414
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/string-ctrl.json.terse
+c000000004D456948000000000000012B
+t1296394568
+s299
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/string-unicode.json
+c000000004D45694800000000000000DB
+t1296394568
+s219
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/string-unicode.json.pretty
+c000000004D45694800000000000000C8
+t1296394568
+s200
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/string-unicode.json.terse
+c000000004D45694800000000000000B7
+t1296394568
+s183
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/string.json
+c000000004D45694800000000000000DA
+t1296394568
+s218
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/string.json.pretty
+c000000004D45694800000000000000F8
+t1296394568
+s248
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Data/string.json.terse
+c000000004D45694800000000000000C7
+t1296394568
+s199
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/DataDrivenTest.m
+c000000004D45694800000000000010F9
+t1296394568
+s4345
+i<SenTestingKit/SenTestingKit.h>
+i<JSON/JSON.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/ErrorTest.m
+c000000004D456948000000000000296F
+t1296394568
+s10607
+i<SenTestingKit/SenTestingKit.h>
+i<JSON/JSON.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/JsonTokeniserTest.m
+c000000004D4569480000000000001EE4
+t1296394568
+s7908
+i<SenTestingKit/SenTestingKit.h>
+i"SBJsonTokeniser.h"
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/MaxDepthTest.m
+c000000004D4569480000000000000BD1
+t1296394568
+s3025
+i<SenTestingKit/SenTestingKit.h>
+i"JSON/JSON.h"
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/ProxyTest.m
+c000000004D4569480000000000000CD5
+t1296394568
+s3285
+i<SenTestingKit/SenTestingKit.h>
+i<JSON/JSON.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xaa
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xab
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xac
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xad
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xae
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xaf
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xag
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xah
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xai
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xaj
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xak
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xal
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xam
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xan
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xao
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xap
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xaq
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xar
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xas
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xat
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xau
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xav
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xaw
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xax
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xay
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xaz
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xba
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbb
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbc
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbd
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbe
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbf
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbg
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbh
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbi
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbj
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbk
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbl
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbm
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbn
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbo
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbp
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbq
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbr
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbs
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbt
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbu
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbv
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbw
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbx
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xby
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xbz
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xca
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xcb
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xcc
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xcd
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xce
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xcf
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xcg
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xch
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xci
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xcj
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xck
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xcl
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xcm
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xcn
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xco
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xcp
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xcq
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xcr
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xcs
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xct
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xcu
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xcv
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xcw
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xcx
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xcy
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xcz
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xda
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xdb
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xdc
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xdd
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xde
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xdf
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xdg
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xdh
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xdi
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xdj
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xdk
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xdl
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xdm
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xdn
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xdo
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xdp
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xdq
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xdr
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xds
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xdt
+c000000004D4569480000000000000400
+t1296394568
+s1024
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xdu
+c000000004D456948000000000000036D
+t1296394568
+s877
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/Stream/xxx
+c000000004D4569480000000000018B6D
+t1296394568
+s101229
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/StreamParserAdapterDelegate.h
+c000000004D45694800000000000006D7
+t1296394568
+s1751
+i<Foundation/Foundation.h>
+i<JSON/JSON.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/StreamParserAdapterDelegate.m
+c000000004D456948000000000000078B
+t1296394568
+s1931
+i"StreamParserAdapterDelegate.h"
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/StreamParserAdapterTest.m
+c000000004D456948000000000000150B
+t1296394568
+s5387
+i<SenTestingKit/SenTestingKit.h>
+i"SBJsonStreamParserAdapter.h"
+i"StreamParserAdapterDelegate.h"
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/StreamParserDelegate.h
+c000000004D45694800000000000006CA
+t1296394568
+s1738
+i<Foundation/Foundation.h>
+i<JSON/JSON.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/StreamParserDelegate.m
+c000000004D4569480000000000000AC4
+t1296394568
+s2756
+i"StreamParserDelegate.h"
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/StreamParserIntegrationTest.m
+c000000004D4569480000000000000F7C
+t1296394568
+s3964
+i<SenTestingKit/SenTestingKit.h>
+i<JSON/JSON.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/StreamParserTest.m
+c000000004D4569480000000000001254
+t1296394568
+s4692
+i<SenTestingKit/SenTestingKit.h>
+i<JSON/JSON.h>
+i"StreamParserDelegate.h"
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/WriterTest.m
+c000000004D4569480000000000000D88
+t1296394568
+s3464
+i<SenTestingKit/SenTestingKit.h>
+i<JSON/JSON.h>
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/Debug-iphonesimulator/libjson.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/Objects-normal/i386/NSObject+JSON.o
+c000000004DD71441000000000000184C
+t1305941057
+s6220
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/Objects-normal/i386/SBJsonParser.o
+c000000004DD714410000000000004148
+t1305941057
+s16712
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/Objects-normal/i386/SBJsonStreamParser.o
+c000000004DD7144200000000000070DC
+t1305941058
+s28892
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/Objects-normal/i386/SBJsonStreamParserAdapter.o
+c000000004DD714560000000000005C60
+t1305941078
+s23648
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/Objects-normal/i386/SBJsonStreamParserState.o
+c000000004DD71456000000000000A864
+t1305941078
+s43108
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/Objects-normal/i386/SBJsonStreamWriter.o
+c000000004DD71441000000000000A654
+t1305941057
+s42580
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/Objects-normal/i386/SBJsonStreamWriterState.o
+c000000004DD714560000000000005B9C
+t1305941078
+s23452
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/Objects-normal/i386/SBJsonTokeniser.o
+c000000004DD714420000000000007470
+t1305941058
+s29808
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/Objects-normal/i386/SBJsonWriter.o
+c000000004DD7144100000000000040AC
+t1305941057
+s16556
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/Objects-normal/i386/json.LinkFileList
+c000000004DD7144000000000000004E0
+t1305941056
+s1248
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/Script-BC5BC69F1249767600F22EB1.sh
+c000000004DD71440000000000000004A
+t1305941056
+s74
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/Script-BC5BC6BE1249E3E500F22EB1.sh
+c000000004DD71440000000000000004A
+t1305941056
+s74
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/build-state.dat
+c000000004DD71537000000000000AACF
+t1305941303
+s43727
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/build-state~.dat
+c000000004DD71448000000000000AACF
+t1305941064
+s43727
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/json-all-target-headers.hmap
+c000000004DD714400000000000000503
+t1305941056
+s1283
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/json-generated-files.hmap
+c000000004DD714400000000000000079
+t1305941056
+s121
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/json-own-target-headers.hmap
+c000000004DD714400000000000000503
+t1305941056
+s1283
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/json-project-headers.hmap
+c000000004DD714400000000000000479
+t1305941056
+s1145
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/json.hmap
+c000000004DD71440000000000000086C
+t1305941056
+s2156
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/libjson.dep
+c000000004DD715370000000000000EF9
+t1305941303
+s3833
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/libjson~.dep
+c000000004DD714480000000000000EF9
+t1305941064
+s3833
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug/libjson.build/build-state.dat
+c000000004DD6F2C40000000000000E6C
+t1305932484
+s3692
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug/libjson.build/build-state~.dat
+c000000004DD6F2AC0000000000000E6C
+t1305932460
+s3692
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug/libjson.build/libjson.dep
+c000000004DD6F2C40000000000000585
+t1305932484
+s1413
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/JSON.build/Debug/libjson.build/libjson~.dep
+c000000004DD6F2AC0000000000000585
+t1305932460
+s1413
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/UninstalledProducts/libjson.a
+c000000004DD714930000000000039CC8
+t1305941139
+s236744
+
+N/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/libjsontests-Info.plist
+c000000004D456948000000000000026C
+t1296394568
+s620
+
+N/Users/GMoore/ConManIphone/Library/JSON v3.0beta1 (iOS)/build/Debug-iphonesimulator/libjson.a
+c000000004DF38D010000000000039F78
+t1307806977
+s237432
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/Debug-iphonesimulator/libRestKitCoreData.a
+c000000004DF38CD2000000000002B8B0
+t1307806930
+s178352
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/Debug-iphonesimulator/libRestKitJSONParserJSONKit.a
+c000000004DD1B0340000000000038378
+t1305587764
+s230264
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/Debug-iphonesimulator/libRestKitJSONParserSBJSON.a
+c000000004DF38CCF0000000000018EF0
+t1307806927
+s102128
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/Debug-iphonesimulator/libRestKitJSONParserYAJL.a
+c000000004DF38CCE000000000003BDA0
+t1307806926
+s245152
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/Debug-iphonesimulator/libRestKitNetwork.a
+c000000004DF38CC7000000000004F2A0
+t1307806919
+s324256
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/Debug-iphonesimulator/libRestKitObjectMapping.a
+c000000004DF38CC9000000000003B618
+t1307806921
+s243224
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/Debug-iphonesimulator/libRestKitSupport.a
+c000000004DF38CCB000000000000BBB8
+t1307806923
+s48056
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/Network/NSDictionary+RKRequestSerialization.h
+c000000004DF38CC300000000000001A0
+t1307806915
+s416
+i<Foundation/Foundation.h>
+i"RKRequestSerializable.h"
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/Network/Network.h
+c000000004DF38CC30000000000000125
+t1307806915
+s293
+i"RKClient.h"
+i"RKRequest.h"
+i"RKResponse.h"
+i"RKRequestSerializable.h"
+i"RKReachabilityObserver.h"
+i"RKRequestQueue.h"
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/Network/RKClient.h
+c000000004DF38CC30000000000001BD3
+t1307806915
+s7123
+i"RKRequest.h"
+i"RKParams.h"
+i"RKResponse.h"
+i"NSDictionary+RKRequestSerialization.h"
+i"RKReachabilityObserver.h"
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/Network/RKJSONSerialization.h
+c000000004DF38CC30000000000000267
+t1307806915
+s615
+i"RKRequestSerializable.h"
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/Network/RKParams.h
+c000000004DF38CC3000000000000095A
+t1307806915
+s2394
+i<Foundation/Foundation.h>
+i"RKRequestSerializable.h"
+i"RKParamsAttachment.h"
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/Network/RKParamsAttachment.h
+c000000004DF38CC30000000000000879
+t1307806915
+s2169
+i<Foundation/Foundation.h>
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/Network/RKReachabilityObserver.h
+c000000004DF38CC30000000000000580
+t1307806915
+s1408
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/Network/RKRequest.h
+c000000004DF38CC300000000000012E5
+t1307806915
+s4837
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i"RKRequestSerializable.h"
+i"RKJSONSerialization.h"
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/Network/RKRequestQueue.h
+c000000004DF38CC3000000000000057A
+t1307806915
+s1402
+i<Foundation/Foundation.h>
+i"RKRequest.h"
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/Network/RKRequestSerializable.h
+c000000004DF38CC300000000000005FC
+t1307806915
+s1532
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/Network/RKResponse.h
+c000000004DF38CC30000000000001030
+t1307806915
+s4144
+i<Foundation/Foundation.h>
+i"RKRequest.h"
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/ObjectMapping/ObjectMapping.h
+c000000004DF38CC700000000000000D5
+t1307806919
+s213
+i"RKObjectManager.h"
+i"RKObject.h"
+i"RKObjectLoader.h"
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/ObjectMapping/RKDynamicRouter.h
+c000000004DF38CC70000000000000513
+t1307806919
+s1299
+i"RKRouter.h"
+i"RKObjectMappable.h"
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/ObjectMapping/RKObject.h
+c000000004DF38CC7000000000000011F
+t1307806919
+s287
+i"RKObjectMappable.h"
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/ObjectMapping/RKObjectLoader.h
+c000000004DF38CC70000000000000CB8
+t1307806919
+s3256
+i"../Network/Network.h"
+i"RKObjectMappable.h"
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/ObjectMapping/RKObjectManager.h
+c000000004DF38CC7000000000000208C
+t1307806919
+s8332
+i"../Network/Network.h"
+i"RKObjectMapper.h"
+i"RKObjectLoader.h"
+i"RKDynamicRouter.h"
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/ObjectMapping/RKObjectMappable.h
+c000000004DF38CC70000000000000B08
+t1307806919
+s2824
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/ObjectMapping/RKObjectMapper.h
+c000000004DF38CC70000000000001533
+t1307806919
+s5427
+i<Foundation/Foundation.h>
+i"RKObjectMappable.h"
+i"RKObjectPropertyInspector.h"
+i"../Support/RKParser.h"
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/ObjectMapping/RKObjectPropertyInspector.h
+c000000004DF38CC700000000000001BC
+t1307806919
+s444
+i<Foundation/Foundation.h>
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/ObjectMapping/RKRouter.h
+c000000004DF38CC700000000000002F3
+t1307806919
+s755
+i"../Network/Network.h"
+i"RKObjectMappable.h"
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/RestKit.h
+c000000004DF500F200000000000000E3
+t1307902194
+s227
+i"Network/Network.h"
+i"Support/Support.h"
+i"ObjectMapping/ObjectMapping.h"
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/Support/Errors.h
+c000000004DF38CCA0000000000000146
+t1307806922
+s326
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/Support/NSDictionary+RKAdditions.h
+c000000004DF38CCA0000000000000234
+t1307806922
+s564
+i<Foundation/Foundation.h>
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/Support/RKParser.h
+c000000004DF38CCA000000000000024A
+t1307806922
+s586
+
+N/Users/GMoore/ConManIphone/Library/RestKit/Build/RestKit/Support/Support.h
+c000000004DF38CCA00000000000000BB
+t1307806922
+s187
+i"Errors.h"
+i"NSDictionary+RKAdditions.h"
+
+N/Users/GMoore/ConManIphone/MainWindow.xib
+c000000004DDC18DC0000000000007FE4
+t1306269916
+s32740
+
+N/Users/GMoore/ConManIphone/Phone.png
+c000000004DD947FD00000000000015C3
+t1306085373
+s5571
+
+N/Users/GMoore/ConManIphone/RootViewController.xib
+c000000004DDC1638000000000000448F
+t1306269240
+s17551
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app
+t1307902195
+s442
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app.dSYM
+t1307902195
+s102
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/.gitignore
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/1.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/1.json.pretty
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/1.json.terse
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/1306085478_preferences-calendar-and-tasks.png
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/1306085556_Conference Device.png
+t1307806979
+s8308
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/2.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/2.json.pretty
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/2.json.terse
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/3.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/3.json.pretty
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/3.json.terse
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/4.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/4.json.pretty
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/4.json.terse
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/5.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/5.json.pretty
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/5.json.terse
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/Changes.markdown
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/Conference-Device.gif
+t1307806979
+s3607
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/Credits.markdown
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/English.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/English.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/ExternalLinkage-Info.plist
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/IConMan
+t1307902195
+s476472
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/Info.plist
+t1307806977
+s652
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/InstallDocumentation.sh
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/Installation.markdown
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/JSON-Info.plist
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/LICENSE
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/MainWindow.nib
+t1307806978
+s5084
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/MeetingViewController.nib
+t1307806979
+s2529
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/Phone.png
+t1307806979
+s5571
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/PkgInfo
+t1307806977
+s8
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/README
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/Readme.markdown
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/Readme.md
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/RefreshOnlineDocs.sh
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/ReleaseChecklist.markdown
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/RootViewController.nib
+t1307806978
+s1606
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/Script-BC5BC69F1249767600F22EB1.sh
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/Script-BC5BC6BE1249E3E500F22EB1.sh
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/Tests-Info.plist
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/TwitterStream-Info.plist
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/TwitterStream-all-target-headers.hmap
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/TwitterStream-generated-files.hmap
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/TwitterStream-own-target-headers.hmap
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/TwitterStream-project-headers.hmap
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/TwitterStream.LinkFileList
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/TwitterStream.app
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/TwitterStream.app.dSYM
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/TwitterStream.dep
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/TwitterStream.hmap
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/TwitterStreamViewController.nib
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/TwitterStream~.dep
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/a.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/a.json.pretty
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/a.json.terse
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/array.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/array.json.pretty
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/array.json.terse
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/b.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/b.json.pretty
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/b.json.terse
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/bool.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/bool.json.pretty
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/bool.json.terse
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/build-state.dat
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/build-state~.dat
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/categories.pbxbtree
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/cdecls.pbxbtree
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/conference_calls.json
+t1307806979
+s114488
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/conference_calls.json.
+t1306013036
+s114488
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/control
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/decls.pbxbtree
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail1.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail10.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail11.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail12.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail13.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail14.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail15.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail16.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail17.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail18.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail19.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail2.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail20.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail21.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail22.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail23.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail24.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail25.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail26.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail27.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail28.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail29.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail3.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail30.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail31.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail32.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail33.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail4.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail5.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail6.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail7.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail8.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/fail9.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/files.pbxbtree
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/format.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/format.json.pretty
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/format.json.terse
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/icon.png
+t1306087017
+s11923
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/imports.pbxbtree
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/json-all-target-headers.hmap
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/json-generated-files.hmap
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/json-own-target-headers.hmap
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/json-project-headers.hmap
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/json.LinkFileList
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/json.hmap
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/json2objc.html
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/libjson.dep
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/libjsontests-Info.plist
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/libjson~.dep
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/null.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/null.json.pretty
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/null.json.terse
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/number.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/number.json.pretty
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/number.json.terse
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/object.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/object.json.pretty
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/object.json.terse
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/pass1.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/pass1.json.pretty
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/pass1.json.terse
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/pass2.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/pass2.json.pretty
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/pass2.json.terse
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/pass3.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/pass3.json.pretty
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/pass3.json.terse
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/pbxindex.header
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/protocols.pbxbtree
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/refs.pbxbtree
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/string-ctrl.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/string-ctrl.json.pretty
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/string-ctrl.json.terse
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/string-unicode.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/string-unicode.json.pretty
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/string-unicode.json.terse
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/string.json
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/string.json.pretty
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/string.json.terse
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/strings
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/subclasses.pbxbtree
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/symbols0.pbxsymbols
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/temp_conf_call
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/temp_conf_call.json
+t1307806979
+s564
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xaa
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xab
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xac
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xad
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xae
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xaf
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xag
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xah
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xai
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xaj
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xak
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xal
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xam
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xan
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xao
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xap
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xaq
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xar
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xas
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xat
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xau
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xav
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xaw
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xax
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xay
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xaz
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xba
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbb
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbc
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbd
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbe
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbf
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbg
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbh
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbi
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbj
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbk
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbl
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbm
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbn
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbo
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbp
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbq
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbr
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbs
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbt
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbu
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbv
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbw
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbx
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xby
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xbz
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xca
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xcb
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xcc
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xcd
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xce
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xcf
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xcg
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xch
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xci
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xcj
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xck
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xcl
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xcm
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xcn
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xco
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xcp
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xcq
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xcr
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xcs
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xct
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xcu
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xcv
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xcw
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xcx
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xcy
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xcz
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xda
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xdb
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xdc
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xdd
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xde
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xdf
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xdg
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xdh
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xdi
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xdj
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xdk
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xdl
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xdm
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xdn
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xdo
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xdp
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xdq
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xdr
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xds
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xdt
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xdu
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/xxx
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/ConManConnector.o
+t1307806980
+s5552
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/DataDrivenTest.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/ErrorTest.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/ExternalLinkageAppDelegate.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/IConMan.LinkFileList
+c000000004DF38D010000000000000432
+t1307806977
+s1074
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/IConManAppDelegate.o
+t1307902194
+s53000
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/JsonTokeniserTest.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MaxDepthTest.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/Meeting.o
+t1307806980
+s18328
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingCell.o
+t1307806980
+s45484
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingDetail.o
+t1307806981
+s37480
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingFinder.o
+t1307902195
+s24180
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingViewController.o
+t1307806981
+s42436
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/NSObject+JSON.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/ProxyTest.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/RootViewController.o
+t1307902194
+s52496
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/SBJsonParser.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/SBJsonStreamParser.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/SBJsonStreamParserAdapter.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/SBJsonStreamParserState.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/SBJsonStreamWriter.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/SBJsonStreamWriterState.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/SBJsonTokeniser.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/SBJsonWriter.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/StreamParserAdapterDelegate.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/StreamParserAdapterTest.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/StreamParserDelegate.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/StreamParserIntegrationTest.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/StreamParserTest.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/TwitterStreamAppDelegate.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/TwitterStreamViewController.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/WriterTest.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/main-446003B447BC944E.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/main-5CD26234745D755C.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/main-B9843B6026D6EFA4.o
+t2
+s0
+
+N/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/main.o
+t1307806980
+s6288
+
+N/Users/GMoore/ConManIphone/conference_calls.json
+c000000004DD81CB7000000000001BF38
+t1306008759
+s114488
+
+N/Users/GMoore/ConManIphone/conference_calls.json.
+c000000004DD81CB7000000000001BF38
+t1306008759
+s114488
+
+N/Users/GMoore/ConManIphone/icon.png
+c000000004DD948740000000000002E93
+t1306085492
+s11923
+
+N/Users/GMoore/ConManIphone/main.m
+c000000004DC6DB8B0000000000000168
+t1304877963
+s360
+i<UIKit/UIKit.h>
+
+N/Users/GMoore/ConManIphone/temp_conf_call
+c000000004DDBC78E00000000000001BE
+t1306249102
+s446
+
+N/Users/GMoore/ConManIphone/temp_conf_call.json
+c000000004DDBD0CB0000000000000234
+t1306251467
+s564
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/build/Debug-iphonesimulator/JSON/JSON
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/build/Debug-iphonesimulator/libjson.a
+c000000004DD714930000000000039CC8
+t1305941139
+s236744
+
+N/tmp/JSON.dst/usr/local/include/JSON/JSON.h
+c000000004DF500B40000000000000B5B
+t1307902132
+s2907
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"SBJsonStreamWriter.h"
+i"SBJsonStreamParser.h"
+i"SBJsonStreamParserAdapter.h"
+i"NSObject+JSON.h"
+i<JSON/SBJsonParser.h>
+i<JSON/SBJsonWriter.h>
+i<JSON/SBJsonStreamParser.h>
+i<JSON/SBJsonStreamParserAdapter.h>
+i<JSON/SBJsonStreamWriter.h>
+i<JSON/NSObject+JSON.h>
+
+N/tmp/JSON.dst/usr/local/include/JSON/NSObject+JSON.h
+c000000004DF38CD20000000000000899
+t1307806930
+s2201
+i<Foundation/Foundation.h>
+
+N/tmp/JSON.dst/usr/local/include/JSON/SBJsonParser.h
+c000000004DF38CD20000000000000FCC
+t1307806930
+s4044
+i<Foundation/Foundation.h>
+
+N/tmp/JSON.dst/usr/local/include/JSON/SBJsonStreamParser.h
+c000000004DF38CD20000000000001163
+t1307806930
+s4451
+i<Foundation/Foundation.h>
+
+N/tmp/JSON.dst/usr/local/include/JSON/SBJsonStreamParserAdapter.h
+c000000004DF38CD20000000000000C3B
+t1307806930
+s3131
+i<Foundation/Foundation.h>
+i"SBJsonStreamParser.h"
+
+N/tmp/JSON.dst/usr/local/include/JSON/SBJsonStreamWriter.h
+c000000004DF38CD200000000000015C3
+t1307806930
+s5571
+i<Foundation/Foundation.h>
+
+N/tmp/JSON.dst/usr/local/include/JSON/SBJsonWriter.h
+c000000004DF38CD200000000000012F9
+t1307806930
+s4857
+i<Foundation/Foundation.h>
+
+N/var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-bpjnnrywhmoctldhtersvsyvebat/IConMan_Prefix.pch.gch
+t1307806980
+s15814064
+
+N/var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-ctepjkmiuecilgbwtznvuefnupsf/IConMan_Prefix.pch.gch
+t1304959154
+s15814064
+
+N/var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-duhxualfptdwenbphhcsbrzlxbqk/IConMan_Prefix.pch.gch
+t1305588781
+s15814064
+
+N/var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-faigegcfosyndoccgpiqvaaqncet/IConMan_Prefix.pch.gch
+t1305939767
+s15814064
+
+NIConMan-Info.plist
+c000000004DD94E670000000000000400
+t1306087015
+s1024
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies329594994#329594994#0(0"0(0#1#0"8633088416#0"0#
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/ConManConnector.o /Users/GMoore/ConManIphone/Classes/ConManConnector.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329499780.768589
+e329499780.875314
+r1
+xCompileC
+xbuild/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/ConManConnector.o
+x/Users/GMoore/ConManIphone/Classes/ConManConnector.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/GMoore/ConManIphone/Classes/ConManConnector.m:14: warning: property 'delegate' requires method '-delegate' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/GMoore/ConManIphone/Classes/ConManConnector.m:14: warning: property 'delegate' requires the method 'setDelegate:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/GMoore/ConManIphone/Classes/ConManConnector.m:14: warning: incomplete implementation of class 'ConManConnector'
+o/Users/GMoore/ConManIphone/Classes/ConManConnector.m:14: warning: method definition for '-perfomSearch:' not found
+lSLF07#2@60"Compile /Users/GMoore/ConManIphone/Classes/ConManConnector.m329499780#329499780#0(623"/Users/GMoore/ConManIphone/Classes/ConManConnector.m:14: warning: property 'delegate' requires method '-delegate' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/GMoore/ConManIphone/Classes/ConManConnector.m:14: warning: property 'delegate' requires the method 'setDelegate:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/GMoore/ConManIphone/Classes/ConManConnector.m:14: warning: incomplete implementation of class 'ConManConnector'/Users/GMoore/ConManIphone/Classes/ConManConnector.m:14: warning: method definition for '-perfomSearch:' not found4(22@124"Property 'delegate' requires method '-delegate' to be defined - use @synthesize, @dynamic or provide a method implementation329499780#0#191#0(6@52"/Users/GMoore/ConManIphone/Classes/ConManConnector.m326652056#14#0#14#0#0"0(22@131"Property 'delegate' requires the method 'setDelegate:' to be defined - use @synthesize, @dynamic or provide a method implementation329499780#191#198#0(6@52"/Users/GMoore/ConManIphone/Classes/ConManConnector.m326652056#14#0#14#0#0"0(22@52"Incomplete implementation of class 'ConManConnector'329499780#389#119#0(6@52"/Users/GMoore/ConManIphone/Classes/ConManConnector.m326652056#14#0#14#0#38"incomplete implementation of class '*'0(22@48"Method definition for '-perfomSearch:' not found329499780#508#115#0(6@52"/Users/GMoore/ConManIphone/Classes/ConManConnector.m326652056#14#0#14#0#35"method definition for '*' not found0(0#0#52"/Users/GMoore/ConManIphone/Classes/ConManConnector.m8625670784#1870"    cd /Users/GMoore/ConManIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-generated-files.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-own-target-headers.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-all-target-headers.hmap -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-project-headers.hmap -F/Users/GMoore/ConManIphone/build/Debug-iphonesimulator -I/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/include -I/tmp/JSON.dst/usr/local/include -ILibrary/RestKit/Build -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources/i386 -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources -include /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-bpjnnrywhmoctldhtersvsyvebat/IConMan_Prefix.pch -c /Users/GMoore/ConManIphone/Classes/ConManConnector.m -o /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/ConManConnector.o0#
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/DataDrivenTest.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/DataDrivenTest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/ErrorTest.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/ErrorTest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/ExternalLinkageAppDelegate.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/Mac/ExternalLinkage/ExternalLinkageAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/IConManAppDelegate.o /Users/GMoore/ConManIphone/Classes/IConManAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329594994.674940
+e329594994.935399
+r1
+xCompileC
+xbuild/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/IConManAppDelegate.o
+x/Users/GMoore/ConManIphone/Classes/IConManAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/GMoore/ConManIphone/Classes/RootViewController.h:10,
+o                 from /Users/GMoore/ConManIphone/Classes/IConManAppDelegate.m:10:
+o/Users/GMoore/ConManIphone/Classes/MeetingFinder.h:40: warning: duplicate declaration for protocol 'RKRequestDelegate'
+lSLF07#2@63"Compile /Users/GMoore/ConManIphone/Classes/IConManAppDelegate.m329594994#329594994#0(283"In file included from /Users/GMoore/ConManIphone/Classes/RootViewController.h:10,                 from /Users/GMoore/ConManIphone/Classes/IConManAppDelegate.m:10:/Users/GMoore/ConManIphone/Classes/MeetingFinder.h:40: warning: duplicate declaration for protocol 'RKRequestDelegate'1(22@54"Duplicate declaration for protocol 'RKRequestDelegate'329594994#164#119#3(7@77"In file included from /Users/GMoore/ConManIphone/Classes/IConManAppDelegate.m329594994#18446744073709551615#0#0(6@55"/Users/GMoore/ConManIphone/Classes/IConManAppDelegate.m326570763#10#0#10#0#0"0(7@77"In file included from /Users/GMoore/ConManIphone/Classes/RootViewController.h329594994#18446744073709551615#0#0(6@55"/Users/GMoore/ConManIphone/Classes/RootViewController.h327978757#10#0#10#0#0"0(13@108"Duplicate declaration for protocol 'RKRequestDelegate' in /Users/GMoore/ConManIphone/Classes/MeetingFinder.h329594994#18446744073709551615#0#0(6@50"/Users/GMoore/ConManIphone/Classes/MeetingFinder.h327957557#40#0#40#0#0"0(6@50"/Users/GMoore/ConManIphone/Classes/MeetingFinder.h327957557#40#0#40#0#0"0(0#0#55"/Users/GMoore/ConManIphone/Classes/IConManAppDelegate.m8626681408#1876"    cd /Users/GMoore/ConManIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-generated-files.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-own-target-headers.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-all-target-headers.hmap -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-project-headers.hmap -F/Users/GMoore/ConManIphone/build/Debug-iphonesimulator -I/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/include -I/tmp/JSON.dst/usr/local/include -ILibrary/RestKit/Build -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources/i386 -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources -include /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-bpjnnrywhmoctldhtersvsyvebat/IConMan_Prefix.pch -c /Users/GMoore/ConManIphone/Classes/IConManAppDelegate.m -o /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/IConManAppDelegate.o0#
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/JsonTokeniserTest.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/JsonTokeniserTest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MaxDepthTest.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/MaxDepthTest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/Meeting.o /Users/GMoore/ConManIphone/Classes/Meeting.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329499780.675708
+e329499780.795713
+r1
+xCompileC
+xbuild/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/Meeting.o
+x/Users/GMoore/ConManIphone/Classes/Meeting.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/GMoore/ConManIphone/Classes/Meeting.m329499780#329499780#0(0"0(0#0#44"/Users/GMoore/ConManIphone/Classes/Meeting.m8634330784#1854"    cd /Users/GMoore/ConManIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-generated-files.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-own-target-headers.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-all-target-headers.hmap -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-project-headers.hmap -F/Users/GMoore/ConManIphone/build/Debug-iphonesimulator -I/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/include -I/tmp/JSON.dst/usr/local/include -ILibrary/RestKit/Build -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources/i386 -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources -include /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-bpjnnrywhmoctldhtersvsyvebat/IConMan_Prefix.pch -c /Users/GMoore/ConManIphone/Classes/Meeting.m -o /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/Meeting.o0#
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingCell.o /Users/GMoore/ConManIphone/Classes/MeetingCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329499780.875429
+e329499780.982596
+r1
+xCompileC
+xbuild/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingCell.o
+x/Users/GMoore/ConManIphone/Classes/MeetingCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/GMoore/ConManIphone/Classes/MeetingCell.m: In function '-[MeetingCell initWithStyle:reuseIdentifier:]':
+o/Users/GMoore/ConManIphone/Classes/MeetingCell.m:37: warning: unused variable 'subjectColor'
+lSLF07#2@56"Compile /Users/GMoore/ConManIphone/Classes/MeetingCell.m329499780#329499780#0(204"/Users/GMoore/ConManIphone/Classes/MeetingCell.m: In function '-[MeetingCell initWithStyle:reuseIdentifier:]':/Users/GMoore/ConManIphone/Classes/MeetingCell.m:37: warning: unused variable 'subjectColor'1(22@30"Unused variable 'subjectColor'329499780#111#93#0(6@48"/Users/GMoore/ConManIphone/Classes/MeetingCell.m327979022#37#0#37#0#19"unused variable '*'0(0#0#48"/Users/GMoore/ConManIphone/Classes/MeetingCell.m8637544800#1862"    cd /Users/GMoore/ConManIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-generated-files.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-own-target-headers.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-all-target-headers.hmap -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-project-headers.hmap -F/Users/GMoore/ConManIphone/build/Debug-iphonesimulator -I/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/include -I/tmp/JSON.dst/usr/local/include -ILibrary/RestKit/Build -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources/i386 -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources -include /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-bpjnnrywhmoctldhtersvsyvebat/IConMan_Prefix.pch -c /Users/GMoore/ConManIphone/Classes/MeetingCell.m -o /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingCell.o0#
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingDetail.o /Users/GMoore/ConManIphone/Classes/MeetingDetail.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329499781.053060
+e329499781.151800
+r1
+xCompileC
+xbuild/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingDetail.o
+x/Users/GMoore/ConManIphone/Classes/MeetingDetail.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/GMoore/ConManIphone/Classes/MeetingDetail.m329499781#329499781#0(0"0(0#0#50"/Users/GMoore/ConManIphone/Classes/MeetingDetail.m8625570976#1866"    cd /Users/GMoore/ConManIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-generated-files.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-own-target-headers.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-all-target-headers.hmap -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-project-headers.hmap -F/Users/GMoore/ConManIphone/build/Debug-iphonesimulator -I/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/include -I/tmp/JSON.dst/usr/local/include -ILibrary/RestKit/Build -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources/i386 -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources -include /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-bpjnnrywhmoctldhtersvsyvebat/IConMan_Prefix.pch -c /Users/GMoore/ConManIphone/Classes/MeetingDetail.m -o /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingDetail.o0#
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingFinder.o /Users/GMoore/ConManIphone/Classes/MeetingFinder.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329594994.916584
+e329594995.086000
+r1
+xCompileC
+xbuild/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingFinder.o
+x/Users/GMoore/ConManIphone/Classes/MeetingFinder.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/GMoore/ConManIphone/Classes/MeetingFinder.m:9:
+o/Users/GMoore/ConManIphone/Classes/MeetingFinder.h:40: warning: duplicate declaration for protocol 'RKRequestDelegate'
+o/Users/GMoore/ConManIphone/Classes/MeetingFinder.m: In function '-[MeetingFinder getMeetings]':
+o/Users/GMoore/ConManIphone/Classes/MeetingFinder.m:30: warning: class 'MeetingFinder' does not implement the 'RKRequestDelegate' protocol
+o/Users/GMoore/ConManIphone/Classes/MeetingFinder.m:24: warning: unused variable 'client'
+lSLF07#2@58"Compile /Users/GMoore/ConManIphone/Classes/MeetingFinder.m329594994#329594995#0(518"In file included from /Users/GMoore/ConManIphone/Classes/MeetingFinder.m:9:/Users/GMoore/ConManIphone/Classes/MeetingFinder.h:40: warning: duplicate declaration for protocol 'RKRequestDelegate'/Users/GMoore/ConManIphone/Classes/MeetingFinder.m: In function '-[MeetingFinder getMeetings]':/Users/GMoore/ConManIphone/Classes/MeetingFinder.m:30: warning: class 'MeetingFinder' does not implement the 'RKRequestDelegate' protocol/Users/GMoore/ConManIphone/Classes/MeetingFinder.m:24: warning: unused variable 'client'3(22@54"Duplicate declaration for protocol 'RKRequestDelegate'329594995#76#119#2(7@72"In file included from /Users/GMoore/ConManIphone/Classes/MeetingFinder.m329594995#18446744073709551615#0#0(6@50"/Users/GMoore/ConManIphone/Classes/MeetingFinder.m329594994#9#0#9#0#0"0(13@108"Duplicate declaration for protocol 'RKRequestDelegate' in /Users/GMoore/ConManIphone/Classes/MeetingFinder.h329594995#18446744073709551615#0#0(6@50"/Users/GMoore/ConManIphone/Classes/MeetingFinder.h327957557#40#0#40#0#0"0(6@50"/Users/GMoore/ConManIphone/Classes/MeetingFinder.h327957557#40#0#40#0#0"0(22@73"Class 'MeetingFinder' does not implement the 'RKRequestDelegate' protocol329594995#291#138#0(6@50"/Users/GMoore/ConManIphone/Classes/MeetingFinder.m329594994#30#0#30#0#45"class '*' does not implement the '*' protocol0(22@24"Unused variable 'client'329594995#429#89#0(6@50"/Users/GMoore/ConManIphone/Classes/MeetingFinder.m329594994#24#0#24#0#19"unused variable '*'0(0#0#50"/Users/GMoore/ConManIphone/Classes/MeetingFinder.m8637746272#1866"    cd /Users/GMoore/ConManIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-generated-files.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-own-target-headers.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-all-target-headers.hmap -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-project-headers.hmap -F/Users/GMoore/ConManIphone/build/Debug-iphonesimulator -I/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/include -I/tmp/JSON.dst/usr/local/include -ILibrary/RestKit/Build -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources/i386 -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources -include /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-bpjnnrywhmoctldhtersvsyvebat/IConMan_Prefix.pch -c /Users/GMoore/ConManIphone/Classes/MeetingFinder.m -o /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingFinder.o0#
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingViewController.o /Users/GMoore/ConManIphone/Classes/MeetingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329499780.982710
+e329499781.106769
+r1
+xCompileC
+xbuild/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingViewController.o
+x/Users/GMoore/ConManIphone/Classes/MeetingViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/GMoore/ConManIphone/Classes/MeetingViewController.m:9:
+o/Users/GMoore/ConManIphone/Classes/MeetingViewController.h:27: warning: '@end' must appear in an @implementation context
+o/Users/GMoore/ConManIphone/Classes/MeetingViewController.m:60: warning: incomplete implementation of class 'MeetingViewController'
+o/Users/GMoore/ConManIphone/Classes/MeetingViewController.m:60: warning: method definition for '-updateTitle' not found
+o/Users/GMoore/ConManIphone/Classes/MeetingViewController.m:60: warning: incomplete implementation of class 'MeetingViewController'
+o/Users/GMoore/ConManIphone/Classes/MeetingViewController.m:60: warning: method definition for '-tableView:cellForRowAtIndexPath:' not found
+o/Users/GMoore/ConManIphone/Classes/MeetingViewController.m:60: warning: method definition for '-tableView:numberOfRowsInSection:' not found
+o/Users/GMoore/ConManIphone/Classes/MeetingViewController.m:60: warning: class 'MeetingViewController' does not fully implement the 'UITableViewDataSource' protocol
+lSLF07#2@66"Compile /Users/GMoore/ConManIphone/Classes/MeetingViewController.m329499780#329499781#0(1030"In file included from /Users/GMoore/ConManIphone/Classes/MeetingViewController.m:9:/Users/GMoore/ConManIphone/Classes/MeetingViewController.h:27: warning: '@end' must appear in an @implementation context/Users/GMoore/ConManIphone/Classes/MeetingViewController.m:60: warning: incomplete implementation of class 'MeetingViewController'/Users/GMoore/ConManIphone/Classes/MeetingViewController.m:60: warning: method definition for '-updateTitle' not found/Users/GMoore/ConManIphone/Classes/MeetingViewController.m:60: warning: incomplete implementation of class 'MeetingViewController'/Users/GMoore/ConManIphone/Classes/MeetingViewController.m:60: warning: method definition for '-tableView:cellForRowAtIndexPath:' not found/Users/GMoore/ConManIphone/Classes/MeetingViewController.m:60: warning: method definition for '-tableView:numberOfRowsInSection:' not found/Users/GMoore/ConManIphone/Classes/MeetingViewController.m:60: warning: class 'MeetingViewController' does not fully implement the 'UITableViewDataSource' protocol7(22@48"'@end' must appear in an @implementation context329499781#84#121#2(7@80"In file included from /Users/GMoore/ConManIphone/Classes/MeetingViewController.m329499781#18446744073709551615#0#0(6@58"/Users/GMoore/ConManIphone/Classes/MeetingViewController.m329227541#9#0#9#0#0"0(13@110"'@end' must appear in an @implementation context in /Users/GMoore/ConManIphone/Classes/MeetingViewController.h329499781#18446744073709551615#0#0(6@58"/Users/GMoore/ConManIphone/Classes/MeetingViewController.h329227710#27#0#27#0#0"0(6@58"/Users/GMoore/ConManIphone/Classes/MeetingViewController.h329227710#27#0#27#0#0"0(22@58"Incomplete implementation of class 'MeetingViewController'329499781#205#131#0(6@58"/Users/GMoore/ConManIphone/Classes/MeetingViewController.m329227541#60#0#60#0#38"incomplete implementation of class '*'0(22@46"Method definition for '-updateTitle' not found329499781#336#119#0(6@58"/Users/GMoore/ConManIphone/Classes/MeetingViewController.m329227541#60#0#60#0#35"method definition for '*' not found0(22@58"Incomplete implementation of class 'MeetingViewController'329499781#455#131#0(6@58"/Users/GMoore/ConManIphone/Classes/MeetingViewController.m329227541#60#0#60#0#38"incomplete implementation of class '*'0(22@67"Method definition for '-tableView:cellForRowAtIndexPath:' not found329499781#586#140#0(6@58"/Users/GMoore/ConManIphone/Classes/MeetingViewController.m329227541#60#0#60#0#35"method definition for '*' not found0(22@67"Method definition for '-tableView:numberOfRowsInSection:' not found329499781#726#140#0(6@58"/Users/GMoore/ConManIphone/Classes/MeetingViewController.m329227541#60#0#60#0#35"method definition for '*' not found0(22@91"Class 'MeetingViewController' does not fully implement the 'UITableViewDataSource' protocol329499781#866#164#0(6@58"/Users/GMoore/ConManIphone/Classes/MeetingViewController.m329227541#60#0#60#0#51"class '*' does not fully implement the '*' protocol0(0#0#58"/Users/GMoore/ConManIphone/Classes/MeetingViewController.m8634753632#1882"    cd /Users/GMoore/ConManIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-generated-files.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-own-target-headers.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-all-target-headers.hmap -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-project-headers.hmap -F/Users/GMoore/ConManIphone/build/Debug-iphonesimulator -I/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/include -I/tmp/JSON.dst/usr/local/include -ILibrary/RestKit/Build -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources/i386 -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources -include /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-bpjnnrywhmoctldhtersvsyvebat/IConMan_Prefix.pch -c /Users/GMoore/ConManIphone/Classes/MeetingViewController.m -o /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/MeetingViewController.o0#
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/NSObject+JSON.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/NSObject+JSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/ProxyTest.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/ProxyTest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/RootViewController.o /Users/GMoore/ConManIphone/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329594994.676014
+e329594994.916244
+r1
+xCompileC
+xbuild/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/RootViewController.o
+x/Users/GMoore/ConManIphone/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/GMoore/ConManIphone/Classes/RootViewController.h:10,
+o                 from /Users/GMoore/ConManIphone/Classes/RootViewController.m:9:
+o/Users/GMoore/ConManIphone/Classes/MeetingFinder.h:40: warning: duplicate declaration for protocol 'RKRequestDelegate'
+o/Users/GMoore/ConManIphone/Classes/RootViewController.m: In function '-[RootViewController tableView:didSelectRowAtIndexPath:]':
+o/Users/GMoore/ConManIphone/Classes/RootViewController.m:111: warning: unused variable 'meeting'
+lSLF07#2@63"Compile /Users/GMoore/ConManIphone/Classes/RootViewController.m329594994#329594994#0(507"In file included from /Users/GMoore/ConManIphone/Classes/RootViewController.h:10,                 from /Users/GMoore/ConManIphone/Classes/RootViewController.m:9:/Users/GMoore/ConManIphone/Classes/MeetingFinder.h:40: warning: duplicate declaration for protocol 'RKRequestDelegate'/Users/GMoore/ConManIphone/Classes/RootViewController.m: In function '-[RootViewController tableView:didSelectRowAtIndexPath:]':/Users/GMoore/ConManIphone/Classes/RootViewController.m:111: warning: unused variable 'meeting'2(22@54"Duplicate declaration for protocol 'RKRequestDelegate'329594994#163#119#3(7@77"In file included from /Users/GMoore/ConManIphone/Classes/RootViewController.m329594994#18446744073709551615#0#0(6@55"/Users/GMoore/ConManIphone/Classes/RootViewController.m328680450#9#0#9#0#0"0(7@77"In file included from /Users/GMoore/ConManIphone/Classes/RootViewController.h329594994#18446744073709551615#0#0(6@55"/Users/GMoore/ConManIphone/Classes/RootViewController.h327978757#10#0#10#0#0"0(13@108"Duplicate declaration for protocol 'RKRequestDelegate' in /Users/GMoore/ConManIphone/Classes/MeetingFinder.h329594994#18446744073709551615#0#0(6@50"/Users/GMoore/ConManIphone/Classes/MeetingFinder.h327957557#40#0#40#0#0"0(6@50"/Users/GMoore/ConManIphone/Classes/MeetingFinder.h327957557#40#0#40#0#0"0(22@25"Unused variable 'meeting'329594994#411#96#0(6@55"/Users/GMoore/ConManIphone/Classes/RootViewController.m328680450#111#0#111#0#19"unused variable '*'0(0#0#55"/Users/GMoore/ConManIphone/Classes/RootViewController.m8624787232#1876"    cd /Users/GMoore/ConManIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-generated-files.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-own-target-headers.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-all-target-headers.hmap -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-project-headers.hmap -F/Users/GMoore/ConManIphone/build/Debug-iphonesimulator -I/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/include -I/tmp/JSON.dst/usr/local/include -ILibrary/RestKit/Build -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources/i386 -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources -include /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-bpjnnrywhmoctldhtersvsyvebat/IConMan_Prefix.pch -c /Users/GMoore/ConManIphone/Classes/RootViewController.m -o /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/SBJsonParser.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/SBJsonStreamParser.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonStreamParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/SBJsonStreamParserAdapter.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonStreamParserAdapter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/SBJsonStreamParserState.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonStreamParserState.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/SBJsonStreamWriter.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonStreamWriter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/SBJsonStreamWriterState.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonStreamWriterState.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/SBJsonTokeniser.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonTokeniser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/SBJsonWriter.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Classes/SBJsonWriter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/StreamParserAdapterDelegate.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/StreamParserAdapterDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/StreamParserAdapterTest.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/StreamParserAdapterTest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/StreamParserDelegate.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/StreamParserDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/StreamParserIntegrationTest.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/StreamParserIntegrationTest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/StreamParserTest.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/StreamParserTest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/TwitterStreamAppDelegate.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/Classes/TwitterStreamAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/TwitterStreamViewController.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/Classes/TwitterStreamViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/WriterTest.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Tests/WriterTest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/main-446003B447BC944E.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/main-5CD26234745D755C.o "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/Mac/ExternalLinkage/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/main-B9843B6026D6EFA4.o /Users/GMoore/ConManIphone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/main.o /Users/GMoore/ConManIphone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329499780.450096
+e329499780.541948
+r1
+xCompileC
+xbuild/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/main.o
+x/Users/GMoore/ConManIphone/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/GMoore/ConManIphone/main.m329499780#329499780#0(0"0(0#0#33"/Users/GMoore/ConManIphone/main.m8625263200#1840"    cd /Users/GMoore/ConManIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-generated-files.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-own-target-headers.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-all-target-headers.hmap -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-project-headers.hmap -F/Users/GMoore/ConManIphone/build/Debug-iphonesimulator -I/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/include -I/tmp/JSON.dst/usr/local/include -ILibrary/RestKit/Build -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources/i386 -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources -include /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-bpjnnrywhmoctldhtersvsyvebat/IConMan_Prefix.pch -c /Users/GMoore/ConManIphone/main.m -o /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/main.o0#
+
+CCompileXIB "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/Mac/ExternalLinkage/English.lproj/MainMenu.xib"
+r0
+
+CCompileXIB "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/TwitterStreamViewController.xib"
+r0
+
+CCompileXIB /Users/GMoore/ConManIphone/Classes/MeetingViewController.xib
+s329499778.702020
+e329499779.566568
+r1
+xCompileXIB
+x/Users/GMoore/ConManIphone/Classes/MeetingViewController.xib
+lSLF07#2@44"CompileXIB Classes/MeetingViewController.xib329499778#329499779#0(0"0(0#0#60"/Users/GMoore/ConManIphone/Classes/MeetingViewController.xib8632923680#564"    cd /Users/GMoore/ConManIphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/MeetingViewController.nib /Users/GMoore/ConManIphone/Classes/MeetingViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/GMoore/ConManIphone/MainWindow.xib
+s329499777.617531
+e329499778.910821
+r1
+xCompileXIB
+x/Users/GMoore/ConManIphone/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib329499777#329499778#0(0"0(0#0#41"/Users/GMoore/ConManIphone/MainWindow.xib29555289171492912#534"    cd /Users/GMoore/ConManIphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/MainWindow.nib /Users/GMoore/ConManIphone/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/GMoore/ConManIphone/RootViewController.xib
+s329499777.618528
+e329499778.701917
+r1
+xCompileXIB
+x/Users/GMoore/ConManIphone/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib329499777#329499778#0(0"0(0#0#49"/Users/GMoore/ConManIphone/RootViewController.xib8632418112#550"    cd /Users/GMoore/ConManIphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/RootViewController.nib /Users/GMoore/ConManIphone/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCopyPlistFile /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/ExternalLinkage-Info.plist "JSON v3.0beta1 (iOS)/Examples/Mac/ExternalLinkage/ExternalLinkage-Info.plist"
+r0
+
+CCopyPlistFile /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/JSON-Info.plist "JSON v3.0beta1 (iOS)/JSON-Info.plist"
+r0
+
+CCopyPlistFile /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/Tests-Info.plist "JSON v3.0beta1 (iOS)/Tests-Info.plist"
+r0
+
+CCopyPlistFile /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/TwitterStream-Info.plist "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/TwitterStream-Info.plist"
+r0
+
+CCopyPlistFile /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/libjsontests-Info.plist "JSON v3.0beta1 (iOS)/libjsontests-Info.plist"
+r0
+
+CCopyStringsFile /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/English.lproj/InfoPlist.strings "JSON v3.0beta1 (iOS)/Examples/Mac/ExternalLinkage/English.lproj/InfoPlist.strings"
+r0
+
+CCpResource "build/Debug-iphonesimulator/IConMan.app/1306085556_Conference Device.png" "1306085556_Conference Device.png"
+s329499778.915243
+e329499779.065870
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/IConMan.app/1306085556_Conference Device.png
+x1306085556_Conference Device.png
+lSLF07#2@37"Copy 1306085556_Conference Device.png329499778#329499779#0(0"0(0#0#59"/Users/GMoore/ConManIphone/1306085556_Conference Device.png8625114240#456"    cd /Users/GMoore/ConManIphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/GMoore/ConManIphone/1306085556_Conference Device.png" /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app0#
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/.gitignore "JSON v3.0beta1 (iOS)/.gitignore"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/1.json "JSON v3.0beta1 (iOS)/Tests/Data/json.org/1.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/1.json.pretty "JSON v3.0beta1 (iOS)/Tests/Data/json.org/1.json.pretty"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/1.json.terse "JSON v3.0beta1 (iOS)/Tests/Data/json.org/1.json.terse"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/1306085478_preferences-calendar-and-tasks.png 1306085478_preferences-calendar-and-tasks.png
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/2.json "JSON v3.0beta1 (iOS)/Tests/Data/json.org/2.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/2.json.pretty "JSON v3.0beta1 (iOS)/Tests/Data/json.org/2.json.pretty"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/2.json.terse "JSON v3.0beta1 (iOS)/Tests/Data/json.org/2.json.terse"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/3.json "JSON v3.0beta1 (iOS)/Tests/Data/json.org/3.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/3.json.pretty "JSON v3.0beta1 (iOS)/Tests/Data/json.org/3.json.pretty"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/3.json.terse "JSON v3.0beta1 (iOS)/Tests/Data/json.org/3.json.terse"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/4.json "JSON v3.0beta1 (iOS)/Tests/Data/json.org/4.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/4.json.pretty "JSON v3.0beta1 (iOS)/Tests/Data/json.org/4.json.pretty"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/4.json.terse "JSON v3.0beta1 (iOS)/Tests/Data/json.org/4.json.terse"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/5.json "JSON v3.0beta1 (iOS)/Tests/Data/json.org/5.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/5.json.pretty "JSON v3.0beta1 (iOS)/Tests/Data/json.org/5.json.pretty"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/5.json.terse "JSON v3.0beta1 (iOS)/Tests/Data/json.org/5.json.terse"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/Changes.markdown "JSON v3.0beta1 (iOS)/Changes.markdown"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/Conference-Device.gif Conference-Device.gif
+s329499778.913525
+e329499779.071755
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/IConMan.app/Conference-Device.gif
+xConference-Device.gif
+lSLF07#2@26"Copy Conference-Device.gif329499778#329499779#0(0"0(0#0#48"/Users/GMoore/ConManIphone/Conference-Device.gif8625276544#443"    cd /Users/GMoore/ConManIphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/GMoore/ConManIphone/Conference-Device.gif /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app0#
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/Credits.markdown "JSON v3.0beta1 (iOS)/Credits.markdown"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/InstallDocumentation.sh "JSON v3.0beta1 (iOS)/Scripts/InstallDocumentation.sh"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/Installation.markdown "JSON v3.0beta1 (iOS)/Installation.markdown"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/LICENSE "JSON v3.0beta1 (iOS)/LICENSE"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/Phone.png Phone.png
+s329499778.917264
+e329499779.055967
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/IConMan.app/Phone.png
+xPhone.png
+lSLF07#2@14"Copy Phone.png329499778#329499779#0(0"0(0#0#36"/Users/GMoore/ConManIphone/Phone.png8624843808#431"    cd /Users/GMoore/ConManIphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/GMoore/ConManIphone/Phone.png /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app0#
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/README "JSON v3.0beta1 (iOS)/Tests/Data/json.org/README"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/README "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/README"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/README "JSON v3.0beta1 (iOS)/Tests/Data/rfc4627/README"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/Readme.markdown "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/Readme.markdown"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/Readme.markdown "JSON v3.0beta1 (iOS)/Readme.markdown"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/Readme.md "JSON v3.0beta1 (iOS)/Examples/Mac/ExternalLinkage/Readme.md"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/RefreshOnlineDocs.sh "JSON v3.0beta1 (iOS)/Scripts/RefreshOnlineDocs.sh"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/ReleaseChecklist.markdown "JSON v3.0beta1 (iOS)/ReleaseChecklist.markdown"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/Script-BC5BC69F1249767600F22EB1.sh "JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/Script-BC5BC69F1249767600F22EB1.sh"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/Script-BC5BC6BE1249E3E500F22EB1.sh "JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/Script-BC5BC6BE1249E3E500F22EB1.sh"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/TwitterStream-all-target-headers.hmap "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphonesimulator/TwitterStream.build/TwitterStream-all-target-headers.hmap"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/TwitterStream-generated-files.hmap "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphonesimulator/TwitterStream.build/TwitterStream-generated-files.hmap"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/TwitterStream-own-target-headers.hmap "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphonesimulator/TwitterStream.build/TwitterStream-own-target-headers.hmap"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/TwitterStream-project-headers.hmap "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphonesimulator/TwitterStream.build/TwitterStream-project-headers.hmap"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/TwitterStream.LinkFileList "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphonesimulator/TwitterStream.build/Objects-normal/i386/TwitterStream.LinkFileList"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/TwitterStream.app "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphonesimulator/TwitterStream.app"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/TwitterStream.app.dSYM "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphonesimulator/TwitterStream.app.dSYM"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/TwitterStream.dep "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/TwitterStream.dep"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/TwitterStream.dep "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphonesimulator/TwitterStream.build/TwitterStream.dep"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/TwitterStream.dep "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug/TwitterStream.build/TwitterStream.dep"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/TwitterStream.hmap "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphonesimulator/TwitterStream.build/TwitterStream.hmap"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/TwitterStream~.dep "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/TwitterStream~.dep"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/a.json "JSON v3.0beta1 (iOS)/Tests/Data/rfc4627/a.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/a.json.pretty "JSON v3.0beta1 (iOS)/Tests/Data/rfc4627/a.json.pretty"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/a.json.terse "JSON v3.0beta1 (iOS)/Tests/Data/rfc4627/a.json.terse"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/array.json "JSON v3.0beta1 (iOS)/Tests/Data/array.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/array.json.pretty "JSON v3.0beta1 (iOS)/Tests/Data/array.json.pretty"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/array.json.terse "JSON v3.0beta1 (iOS)/Tests/Data/array.json.terse"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/b.json "JSON v3.0beta1 (iOS)/Tests/Data/rfc4627/b.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/b.json.pretty "JSON v3.0beta1 (iOS)/Tests/Data/rfc4627/b.json.pretty"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/b.json.terse "JSON v3.0beta1 (iOS)/Tests/Data/rfc4627/b.json.terse"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/bool.json "JSON v3.0beta1 (iOS)/Tests/Data/bool.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/bool.json.pretty "JSON v3.0beta1 (iOS)/Tests/Data/bool.json.pretty"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/bool.json.terse "JSON v3.0beta1 (iOS)/Tests/Data/bool.json.terse"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/build-state.dat "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/build-state.dat"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/build-state.dat "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphonesimulator/TwitterStream.build/build-state.dat"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/build-state.dat "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug/TwitterStream.build/build-state.dat"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/build-state.dat "JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/build-state.dat"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/build-state.dat "JSON v3.0beta1 (iOS)/build/JSON.build/Debug/libjson.build/build-state.dat"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/build-state~.dat "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/build-state~.dat"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/build-state~.dat "JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/build-state~.dat"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/build-state~.dat "JSON v3.0beta1 (iOS)/build/JSON.build/Debug/libjson.build/build-state~.dat"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/categories.pbxbtree "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/categories.pbxbtree"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/cdecls.pbxbtree "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/cdecls.pbxbtree"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/conference_calls.json conference_calls.json
+s329499778.911045
+e329499779.083003
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/IConMan.app/conference_calls.json
+xconference_calls.json
+lSLF07#2@26"Copy conference_calls.json329499778#329499779#0(0"0(0#0#48"/Users/GMoore/ConManIphone/conference_calls.json8608994784#443"    cd /Users/GMoore/ConManIphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/GMoore/ConManIphone/conference_calls.json /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app0#
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/conference_calls.json. conference_calls.json.
+s327705836.239969
+e327705836.256455
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/IConMan.app/conference_calls.json.
+xconference_calls.json.
+lSLF07#2@27"Copy conference_calls.json.327705836#327705836#0(0"0(0#0#49"/Users/GMoore/ConManIphone/conference_calls.json.8666988672#444"    cd /Users/GMoore/ConManIphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/GMoore/ConManIphone/conference_calls.json. /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app0#
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/control "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/strings.pbxstrings/control"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/decls.pbxbtree "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/decls.pbxbtree"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail1.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail1.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail10.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail10.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail11.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail11.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail12.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail12.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail13.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail13.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail14.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail14.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail15.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail15.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail16.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail16.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail17.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail17.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail18.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail18.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail19.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail19.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail2.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail2.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail20.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail20.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail21.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail21.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail22.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail22.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail23.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail23.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail24.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail24.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail25.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail25.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail26.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail26.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail27.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail27.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail28.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail28.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail29.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail29.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail3.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail3.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail30.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail30.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail31.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail31.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail32.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail32.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail33.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail33.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail4.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail4.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail5.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail5.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail6.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail6.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail7.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail7.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail8.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail8.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/fail9.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/fail9.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/files.pbxbtree "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/files.pbxbtree"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/format.json "JSON v3.0beta1 (iOS)/Tests/Data/format.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/format.json.pretty "JSON v3.0beta1 (iOS)/Tests/Data/format.json.pretty"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/format.json.terse "JSON v3.0beta1 (iOS)/Tests/Data/format.json.terse"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/icon.png icon.png
+s327779817.333536
+e327779817.343281
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/IConMan.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png327779817#327779817#0(0"0(0#0#35"/Users/GMoore/ConManIphone/icon.png8669435424#430"    cd /Users/GMoore/ConManIphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/GMoore/ConManIphone/icon.png /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app0#
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/imports.pbxbtree "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/imports.pbxbtree"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/json-all-target-headers.hmap "JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/json-all-target-headers.hmap"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/json-generated-files.hmap "JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/json-generated-files.hmap"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/json-own-target-headers.hmap "JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/json-own-target-headers.hmap"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/json-project-headers.hmap "JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/json-project-headers.hmap"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/json.LinkFileList "JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/Objects-normal/i386/json.LinkFileList"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/json.hmap "JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/json.hmap"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/json2objc.html "JSON v3.0beta1 (iOS)/Contrib/json2objc.html"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/libjson.dep "JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/libjson.dep"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/libjson.dep "JSON v3.0beta1 (iOS)/build/JSON.build/Debug/libjson.build/libjson.dep"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/libjson~.dep "JSON v3.0beta1 (iOS)/build/JSON.build/Debug-iphonesimulator/libjson.build/libjson~.dep"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/libjson~.dep "JSON v3.0beta1 (iOS)/build/JSON.build/Debug/libjson.build/libjson~.dep"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/null.json "JSON v3.0beta1 (iOS)/Tests/Data/null.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/null.json.pretty "JSON v3.0beta1 (iOS)/Tests/Data/null.json.pretty"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/null.json.terse "JSON v3.0beta1 (iOS)/Tests/Data/null.json.terse"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/number.json "JSON v3.0beta1 (iOS)/Tests/Data/number.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/number.json.pretty "JSON v3.0beta1 (iOS)/Tests/Data/number.json.pretty"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/number.json.terse "JSON v3.0beta1 (iOS)/Tests/Data/number.json.terse"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/object.json "JSON v3.0beta1 (iOS)/Tests/Data/object.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/object.json.pretty "JSON v3.0beta1 (iOS)/Tests/Data/object.json.pretty"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/object.json.terse "JSON v3.0beta1 (iOS)/Tests/Data/object.json.terse"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/pass1.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/pass1.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/pass1.json.pretty "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/pass1.json.pretty"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/pass1.json.terse "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/pass1.json.terse"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/pass2.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/pass2.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/pass2.json.pretty "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/pass2.json.pretty"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/pass2.json.terse "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/pass2.json.terse"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/pass3.json "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/pass3.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/pass3.json.pretty "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/pass3.json.pretty"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/pass3.json.terse "JSON v3.0beta1 (iOS)/Tests/Data/jsonchecker/pass3.json.terse"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/pbxindex.header "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/pbxindex.header"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/protocols.pbxbtree "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/protocols.pbxbtree"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/refs.pbxbtree "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/refs.pbxbtree"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/string-ctrl.json "JSON v3.0beta1 (iOS)/Tests/Data/string-ctrl.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/string-ctrl.json.pretty "JSON v3.0beta1 (iOS)/Tests/Data/string-ctrl.json.pretty"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/string-ctrl.json.terse "JSON v3.0beta1 (iOS)/Tests/Data/string-ctrl.json.terse"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/string-unicode.json "JSON v3.0beta1 (iOS)/Tests/Data/string-unicode.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/string-unicode.json.pretty "JSON v3.0beta1 (iOS)/Tests/Data/string-unicode.json.pretty"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/string-unicode.json.terse "JSON v3.0beta1 (iOS)/Tests/Data/string-unicode.json.terse"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/string.json "JSON v3.0beta1 (iOS)/Tests/Data/string.json"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/string.json.pretty "JSON v3.0beta1 (iOS)/Tests/Data/string.json.pretty"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/string.json.terse "JSON v3.0beta1 (iOS)/Tests/Data/string.json.terse"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/strings "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/strings.pbxstrings/strings"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/subclasses.pbxbtree "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/subclasses.pbxbtree"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/symbols0.pbxsymbols "JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/TwitterStream.pbxindex/symbols0.pbxsymbols"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/temp_conf_call temp_conf_call
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/temp_conf_call.json temp_conf_call.json
+s329499778.911893
+e329499779.081997
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/IConMan.app/temp_conf_call.json
+xtemp_conf_call.json
+lSLF07#2@24"Copy temp_conf_call.json329499778#329499779#0(0"0(0#0#46"/Users/GMoore/ConManIphone/temp_conf_call.json8592691584#441"    cd /Users/GMoore/ConManIphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/GMoore/ConManIphone/temp_conf_call.json /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app0#
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xaa "JSON v3.0beta1 (iOS)/Tests/Stream/xaa"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xab "JSON v3.0beta1 (iOS)/Tests/Stream/xab"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xac "JSON v3.0beta1 (iOS)/Tests/Stream/xac"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xad "JSON v3.0beta1 (iOS)/Tests/Stream/xad"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xae "JSON v3.0beta1 (iOS)/Tests/Stream/xae"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xaf "JSON v3.0beta1 (iOS)/Tests/Stream/xaf"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xag "JSON v3.0beta1 (iOS)/Tests/Stream/xag"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xah "JSON v3.0beta1 (iOS)/Tests/Stream/xah"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xai "JSON v3.0beta1 (iOS)/Tests/Stream/xai"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xaj "JSON v3.0beta1 (iOS)/Tests/Stream/xaj"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xak "JSON v3.0beta1 (iOS)/Tests/Stream/xak"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xal "JSON v3.0beta1 (iOS)/Tests/Stream/xal"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xam "JSON v3.0beta1 (iOS)/Tests/Stream/xam"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xan "JSON v3.0beta1 (iOS)/Tests/Stream/xan"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xao "JSON v3.0beta1 (iOS)/Tests/Stream/xao"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xap "JSON v3.0beta1 (iOS)/Tests/Stream/xap"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xaq "JSON v3.0beta1 (iOS)/Tests/Stream/xaq"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xar "JSON v3.0beta1 (iOS)/Tests/Stream/xar"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xas "JSON v3.0beta1 (iOS)/Tests/Stream/xas"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xat "JSON v3.0beta1 (iOS)/Tests/Stream/xat"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xau "JSON v3.0beta1 (iOS)/Tests/Stream/xau"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xav "JSON v3.0beta1 (iOS)/Tests/Stream/xav"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xaw "JSON v3.0beta1 (iOS)/Tests/Stream/xaw"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xax "JSON v3.0beta1 (iOS)/Tests/Stream/xax"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xay "JSON v3.0beta1 (iOS)/Tests/Stream/xay"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xaz "JSON v3.0beta1 (iOS)/Tests/Stream/xaz"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xba "JSON v3.0beta1 (iOS)/Tests/Stream/xba"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbb "JSON v3.0beta1 (iOS)/Tests/Stream/xbb"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbc "JSON v3.0beta1 (iOS)/Tests/Stream/xbc"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbd "JSON v3.0beta1 (iOS)/Tests/Stream/xbd"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbe "JSON v3.0beta1 (iOS)/Tests/Stream/xbe"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbf "JSON v3.0beta1 (iOS)/Tests/Stream/xbf"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbg "JSON v3.0beta1 (iOS)/Tests/Stream/xbg"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbh "JSON v3.0beta1 (iOS)/Tests/Stream/xbh"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbi "JSON v3.0beta1 (iOS)/Tests/Stream/xbi"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbj "JSON v3.0beta1 (iOS)/Tests/Stream/xbj"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbk "JSON v3.0beta1 (iOS)/Tests/Stream/xbk"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbl "JSON v3.0beta1 (iOS)/Tests/Stream/xbl"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbm "JSON v3.0beta1 (iOS)/Tests/Stream/xbm"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbn "JSON v3.0beta1 (iOS)/Tests/Stream/xbn"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbo "JSON v3.0beta1 (iOS)/Tests/Stream/xbo"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbp "JSON v3.0beta1 (iOS)/Tests/Stream/xbp"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbq "JSON v3.0beta1 (iOS)/Tests/Stream/xbq"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbr "JSON v3.0beta1 (iOS)/Tests/Stream/xbr"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbs "JSON v3.0beta1 (iOS)/Tests/Stream/xbs"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbt "JSON v3.0beta1 (iOS)/Tests/Stream/xbt"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbu "JSON v3.0beta1 (iOS)/Tests/Stream/xbu"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbv "JSON v3.0beta1 (iOS)/Tests/Stream/xbv"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbw "JSON v3.0beta1 (iOS)/Tests/Stream/xbw"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbx "JSON v3.0beta1 (iOS)/Tests/Stream/xbx"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xby "JSON v3.0beta1 (iOS)/Tests/Stream/xby"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xbz "JSON v3.0beta1 (iOS)/Tests/Stream/xbz"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xca "JSON v3.0beta1 (iOS)/Tests/Stream/xca"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xcb "JSON v3.0beta1 (iOS)/Tests/Stream/xcb"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xcc "JSON v3.0beta1 (iOS)/Tests/Stream/xcc"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xcd "JSON v3.0beta1 (iOS)/Tests/Stream/xcd"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xce "JSON v3.0beta1 (iOS)/Tests/Stream/xce"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xcf "JSON v3.0beta1 (iOS)/Tests/Stream/xcf"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xcg "JSON v3.0beta1 (iOS)/Tests/Stream/xcg"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xch "JSON v3.0beta1 (iOS)/Tests/Stream/xch"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xci "JSON v3.0beta1 (iOS)/Tests/Stream/xci"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xcj "JSON v3.0beta1 (iOS)/Tests/Stream/xcj"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xck "JSON v3.0beta1 (iOS)/Tests/Stream/xck"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xcl "JSON v3.0beta1 (iOS)/Tests/Stream/xcl"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xcm "JSON v3.0beta1 (iOS)/Tests/Stream/xcm"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xcn "JSON v3.0beta1 (iOS)/Tests/Stream/xcn"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xco "JSON v3.0beta1 (iOS)/Tests/Stream/xco"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xcp "JSON v3.0beta1 (iOS)/Tests/Stream/xcp"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xcq "JSON v3.0beta1 (iOS)/Tests/Stream/xcq"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xcr "JSON v3.0beta1 (iOS)/Tests/Stream/xcr"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xcs "JSON v3.0beta1 (iOS)/Tests/Stream/xcs"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xct "JSON v3.0beta1 (iOS)/Tests/Stream/xct"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xcu "JSON v3.0beta1 (iOS)/Tests/Stream/xcu"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xcv "JSON v3.0beta1 (iOS)/Tests/Stream/xcv"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xcw "JSON v3.0beta1 (iOS)/Tests/Stream/xcw"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xcx "JSON v3.0beta1 (iOS)/Tests/Stream/xcx"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xcy "JSON v3.0beta1 (iOS)/Tests/Stream/xcy"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xcz "JSON v3.0beta1 (iOS)/Tests/Stream/xcz"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xda "JSON v3.0beta1 (iOS)/Tests/Stream/xda"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xdb "JSON v3.0beta1 (iOS)/Tests/Stream/xdb"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xdc "JSON v3.0beta1 (iOS)/Tests/Stream/xdc"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xdd "JSON v3.0beta1 (iOS)/Tests/Stream/xdd"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xde "JSON v3.0beta1 (iOS)/Tests/Stream/xde"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xdf "JSON v3.0beta1 (iOS)/Tests/Stream/xdf"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xdg "JSON v3.0beta1 (iOS)/Tests/Stream/xdg"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xdh "JSON v3.0beta1 (iOS)/Tests/Stream/xdh"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xdi "JSON v3.0beta1 (iOS)/Tests/Stream/xdi"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xdj "JSON v3.0beta1 (iOS)/Tests/Stream/xdj"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xdk "JSON v3.0beta1 (iOS)/Tests/Stream/xdk"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xdl "JSON v3.0beta1 (iOS)/Tests/Stream/xdl"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xdm "JSON v3.0beta1 (iOS)/Tests/Stream/xdm"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xdn "JSON v3.0beta1 (iOS)/Tests/Stream/xdn"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xdo "JSON v3.0beta1 (iOS)/Tests/Stream/xdo"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xdp "JSON v3.0beta1 (iOS)/Tests/Stream/xdp"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xdq "JSON v3.0beta1 (iOS)/Tests/Stream/xdq"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xdr "JSON v3.0beta1 (iOS)/Tests/Stream/xdr"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xds "JSON v3.0beta1 (iOS)/Tests/Stream/xds"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xdt "JSON v3.0beta1 (iOS)/Tests/Stream/xdt"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xdu "JSON v3.0beta1 (iOS)/Tests/Stream/xdu"
+r0
+
+CCpResource build/Debug-iphonesimulator/IConMan.app/xxx "JSON v3.0beta1 (iOS)/Tests/Stream/xxx"
+r0
+
+CGenerateDSYMFile /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app.dSYM /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/IConMan
+s329594995.217962
+e329594995.316482
+r1
+xGenerateDSYMFile
+x/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app.dSYM
+x/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/IConMan
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/IConMan.app.dSYM build/Debug-iphonesimulator/IConMan.app/IConMan329594995#329594995#0(0"0(0#0#74"/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/IConMan8637321952#347"    cd /Users/GMoore/ConManIphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/IConMan -o /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app.dSYM0#
+
+CLd /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/IConMan normal i386
+s329594995.086095
+e329594995.217851
+r1
+xLd
+x/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/IConMan
+xnormal
+xi386
+lSLF07#2@79"Link /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/IConMan329594995#329594995#0(0"0(0#0#0"8635991040#1857"    cd /Users/GMoore/ConManIphone    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/GMoore/ConManIphone/build/Debug-iphonesimulator -L/Users/GMoore/ConManIphone/objective_resource/Classes/lib/objective_support/google_toolbar/TigerGcov -L/Users/GMoore/ConManIphone/objective_resource/google_toolbar/TigerGcov "-L/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/Debug-iphonesimulator" "-L/Users/GMoore/ConManIphone/JSON v3.0beta1 (iOS)/build/UninstalledProducts" -F/Users/GMoore/ConManIphone/build/Debug-iphonesimulator -filelist /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/Objects-normal/i386/IConMan.LinkFileList -mmacosx-version-min=10.6 -ObjC -all_load -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics /Users/GMoore/ConManIphone/Library/RestKit/Build/Debug-iphonesimulator/libRestKitCoreData.a /Users/GMoore/ConManIphone/Library/RestKit/Build/Debug-iphonesimulator/libRestKitNetwork.a /Users/GMoore/ConManIphone/Library/RestKit/Build/Debug-iphonesimulator/libRestKitObjectMapping.a /Users/GMoore/ConManIphone/Library/RestKit/Build/Debug-iphonesimulator/libRestKitSupport.a -framework CFNetwork -framework SystemConfiguration -framework MobileCoreServices -framework CoreData /Users/GMoore/ConManIphone/Library/RestKit/Build/Debug-iphonesimulator/libRestKitJSONParserYAJL.a "/Users/GMoore/ConManIphone/Library/JSON v3.0beta1 (iOS)/build/Debug-iphonesimulator/libjson.a" -o /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/IConMan0#
+
+CProcessInfoPlistFile /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/Info.plist IConMan-Info.plist
+s329499777.556169
+e329499777.617420
+r1
+xProcessInfoPlistFile
+x/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/Info.plist
+xIConMan-Info.plist
+lSLF07#2@26"Process IConMan-Info.plist329499777#329499777#0(0"0(0#0#45"/Users/GMoore/ConManIphone/IConMan-Info.plist8621795168#443"    cd /Users/GMoore/ConManIphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility IConMan-Info.plist -genpkginfo /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app/Info.plist0#
+
+CProcessPCH /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-bpjnnrywhmoctldhtersvsyvebat/IConMan_Prefix.pch.gch IConMan_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s329499779.566695
+e329499780.449794
+r1
+xProcessPCH
+x/var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-bpjnnrywhmoctldhtersvsyvebat/IConMan_Prefix.pch.gch
+xIConMan_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile IConMan_Prefix.pch329499779#329499780#0(0"0(0#0#45"/Users/GMoore/ConManIphone/IConMan_Prefix.pch8633165984#1744"    cd /Users/GMoore/ConManIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-generated-files.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-own-target-headers.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-all-target-headers.hmap -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-project-headers.hmap -F/Users/GMoore/ConManIphone/build/Debug-iphonesimulator -I/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/include -I/tmp/JSON.dst/usr/local/include -ILibrary/RestKit/Build -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources/i386 -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources -c /Users/GMoore/ConManIphone/IConMan_Prefix.pch -o /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-bpjnnrywhmoctldhtersvsyvebat/IConMan_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-ctepjkmiuecilgbwtznvuefnupsf/IConMan_Prefix.pch.gch IConMan_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s326651953.173447
+e326651954.167194
+r1
+xProcessPCH
+x/var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-ctepjkmiuecilgbwtznvuefnupsf/IConMan_Prefix.pch.gch
+xIConMan_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile IConMan_Prefix.pch326651953#326651954#0(0"0(0#0#45"/Users/GMoore/ConManIphone/IConMan_Prefix.pch8603969024#1686"    cd /Users/GMoore/ConManIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-generated-files.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-own-target-headers.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-all-target-headers.hmap -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-project-headers.hmap -F/Users/GMoore/ConManIphone/build/Debug-iphonesimulator -I/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/include -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources/i386 -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources -c /Users/GMoore/ConManIphone/IConMan_Prefix.pch -o /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-ctepjkmiuecilgbwtznvuefnupsf/IConMan_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-duhxualfptdwenbphhcsbrzlxbqk/IConMan_Prefix.pch.gch IConMan_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s327281579.911359
+e327281581.043532
+r1
+xProcessPCH
+x/var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-duhxualfptdwenbphhcsbrzlxbqk/IConMan_Prefix.pch.gch
+xIConMan_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile IConMan_Prefix.pch327281579#327281581#0(0"0(0#0#45"/Users/GMoore/ConManIphone/IConMan_Prefix.pch8650734720#1712"    cd /Users/GMoore/ConManIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-generated-files.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-own-target-headers.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-all-target-headers.hmap -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-project-headers.hmap -F/Users/GMoore/ConManIphone/build/Debug-iphonesimulator -I/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/include -ILibraries/RestKit/Build -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources/i386 -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources -c /Users/GMoore/ConManIphone/IConMan_Prefix.pch -o /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-duhxualfptdwenbphhcsbrzlxbqk/IConMan_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-faigegcfosyndoccgpiqvaaqncet/IConMan_Prefix.pch.gch IConMan_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s327632565.497807
+e327632567.163837
+r1
+xProcessPCH
+x/var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-faigegcfosyndoccgpiqvaaqncet/IConMan_Prefix.pch.gch
+xIConMan_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile IConMan_Prefix.pch327632565#327632567#0(0"0(0#0#45"/Users/GMoore/ConManIphone/IConMan_Prefix.pch8666523680#1710"    cd /Users/GMoore/ConManIphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-generated-files.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-own-target-headers.hmap -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-all-target-headers.hmap -iquote /Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/IConMan-project-headers.hmap -F/Users/GMoore/ConManIphone/build/Debug-iphonesimulator -I/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/include -ILibrary/RestKit/Build -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources/i386 -I/Users/GMoore/ConManIphone/build/IConMan.build/Debug-iphonesimulator/IConMan.build/DerivedSources -c /Users/GMoore/ConManIphone/IConMan_Prefix.pch -o /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IConMan_Prefix-faigegcfosyndoccgpiqvaaqncet/IConMan_Prefix.pch.gch0#
+
+CTouch /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app
+s329594995.316581
+e329594995.320858
+r1
+xTouch
+x/Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app
+lSLF07#2@72"Touch /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app329594995#329594995#0(0"0(0#0#0"8636343712#254"    cd /Users/GMoore/ConManIphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/GMoore/ConManIphone/build/Debug-iphonesimulator/IConMan.app0#
+

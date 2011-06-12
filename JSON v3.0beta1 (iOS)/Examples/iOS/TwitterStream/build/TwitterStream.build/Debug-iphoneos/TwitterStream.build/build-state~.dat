@@ -1,0 +1,250 @@
+TTwitterStream
+v7
+r1
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7401890000000000000110
+t1299448201
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/Classes/TwitterStreamAppDelegate.h
+c000000004D4569480000000000000205
+t1296394568
+s517
+i<UIKit/UIKit.h>
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/Classes/TwitterStreamAppDelegate.m
+c000000004D4569480000000000000AAD
+t1296394568
+s2733
+i"TwitterStreamAppDelegate.h"
+i"TwitterStreamViewController.h"
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/Classes/TwitterStreamViewController.h
+c000000004D45694800000000000001FC
+t1296394568
+s508
+i<UIKit/UIKit.h>
+i<JSON/JSON.h>
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/Classes/TwitterStreamViewController.m
+c000000004D4569480000000000000E48
+t1296394568
+s3656
+i"TwitterStreamViewController.h"
+i<JSON/JSON.h>
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/MainWindow.xib
+c000000004D4569480000000000004E71
+t1296394568
+s20081
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/TwitterStreamViewController.xib
+c000000004D456948000000000000675F
+t1296394568
+s26463
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/TwitterStream_Prefix.pch
+c000000004D45694800000000000000C3
+t1296394568
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphoneos/TwitterStream.app
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphoneos/TwitterStream.app.dSYM
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphoneos/TwitterStream.app/Info.plist
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphoneos/TwitterStream.app/MainWindow.nib
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphoneos/TwitterStream.app/PkgInfo
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphoneos/TwitterStream.app/ResourceRules.plist
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphoneos/TwitterStream.app/TwitterStream
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphoneos/TwitterStream.app/TwitterStreamViewController.nib
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphoneos/TwitterStream.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/Objects-normal/armv6/TwitterStream
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/Objects-normal/armv6/TwitterStream.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/Objects-normal/armv6/TwitterStreamAppDelegate.o
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/Objects-normal/armv6/TwitterStreamViewController.o
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/Objects-normal/armv7/TwitterStream
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/Objects-normal/armv7/TwitterStream.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/Objects-normal/armv7/TwitterStreamAppDelegate.o
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/Objects-normal/armv7/TwitterStreamViewController.o
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/main.m
+c000000004D4569480000000000000171
+t1296394568
+s369
+i<UIKit/UIKit.h>
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/build/Debug/libjson.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/GMoore/Library/MobileDevice/Provisioning Profiles/DF863CF1-73CA-4BAB-8C7D-884832A4CBDF.mobileprovision
+c000000004DC96C240000000000001C3D
+t1305046052
+s7229
+
+N/var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/TwitterStream_Prefix-golexjiadrijgjdqktluoogpwphe/TwitterStream_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/TwitterStream_Prefix-hksurowqnaledkhbubsrmvhkpapz/TwitterStream_Prefix.pch.gch
+t2
+s0
+
+NTwitterStream-Info.plist
+c000000004D456948000000000000038D
+t1296394568
+s909
+
+CCodeSign "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphoneos/TwitterStream.app"
+r0
+
+CCompileC build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/Objects-normal/armv6/TwitterStreamAppDelegate.o "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/Classes/TwitterStreamAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/Objects-normal/armv6/TwitterStreamViewController.o "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/Classes/TwitterStreamViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/Objects-normal/armv6/main.o "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/Objects-normal/armv7/TwitterStreamAppDelegate.o "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/Classes/TwitterStreamAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/Objects-normal/armv7/TwitterStreamViewController.o "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/Classes/TwitterStreamViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/Objects-normal/armv7/main.o "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/TwitterStreamViewController.xib"
+r0
+
+CCpResource build/Debug-iphoneos/TwitterStream.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphoneos/TwitterStream.app/TwitterStream" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphoneos/TwitterStream.app.dSYM" "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphoneos/TwitterStream.app/TwitterStream"
+r0
+
+CLd "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/Objects-normal/armv6/TwitterStream" normal armv6
+r0
+
+CLd "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/Objects-normal/armv7/TwitterStream" normal armv7
+r0
+
+CProcessInfoPlistFile "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphoneos/TwitterStream.app/Info.plist" TwitterStream-Info.plist
+r0
+
+CProcessPCH /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/TwitterStream_Prefix-golexjiadrijgjdqktluoogpwphe/TwitterStream_Prefix.pch.gch TwitterStream_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/sY/sYE0vNOFGf8qYAIQyekRnk+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/TwitterStream_Prefix-hksurowqnaledkhbubsrmvhkpapz/TwitterStream_Prefix.pch.gch TwitterStream_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/GMoore/Library/MobileDevice/Provisioning Profiles/DF863CF1-73CA-4BAB-8C7D-884832A4CBDF.mobileprovision" "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphoneos/TwitterStream.app/embedded.mobileprovision"
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/TwitterStream.build/Debug-iphoneos/TwitterStream.build/TwitterStream.xcent"
+r0
+
+CTouch "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug-iphoneos/TwitterStream.app"
+r0
+

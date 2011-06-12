@@ -7,10 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Meeting.h"
 
 
-@interface MeetingViewController : UIViewController {
+@interface MeetingViewController : UIViewController 
+		<UITableViewDataSource>
+
+
+{
+	Meeting *meeting; // Meeting object 
 
 }
 
+@property(nonatomic, retain)Meeting* meeting;
+-(void)updateTitle; // updates the title of the form
+
+ @end
+ 
 @end

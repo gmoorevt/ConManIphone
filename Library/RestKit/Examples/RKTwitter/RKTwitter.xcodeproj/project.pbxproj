@@ -24,12 +24,12 @@
 		3F3CE40F125B9B450083FDCB /* BG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3CE40B125B9B450083FDCB /* BG@2x.png */; };
 		3F3CE410125B9B450083FDCB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3CE40C125B9B450083FDCB /* Default.png */; };
 		3F3CE411125B9B450083FDCB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3CE40D125B9B450083FDCB /* Default@2x.png */; };
-		3FECA57512D2413B0023437F /* libRestKitJSONParserSBJSON.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3CE2CD125B93780083FDCB /* libRestKitJSONParserSBJSON.a */; };
 		84F524B612824D2D00C370EA /* libRestKitNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3CE2C5125B93780083FDCB /* libRestKitNetwork.a */; };
 		84F524B712824D2E00C370EA /* libRestKitObjectMapping.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3CE2C7125B93780083FDCB /* libRestKitObjectMapping.a */; };
 		84F524B812824D2F00C370EA /* libRestKitSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3CE2C9125B93780083FDCB /* libRestKitSupport.a */; };
 		84F524C212824D5000C370EA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F524C112824D5000C370EA /* CFNetwork.framework */; };
 		84F524C612824D5B00C370EA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F524C512824D5B00C370EA /* MobileCoreServices.framework */; };
+		A1D201EB1381EA09003BC230 /* libRestKitXMLParserLibxml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BD44181340331700DBACDD /* libRestKitXMLParserLibxml.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,7 +159,7 @@
 				84F524B812824D2F00C370EA /* libRestKitSupport.a in Frameworks */,
 				84F524C212824D5000C370EA /* CFNetwork.framework in Frameworks */,
 				84F524C612824D5B00C370EA /* MobileCoreServices.framework in Frameworks */,
-				3FECA57512D2413B0023437F /* libRestKitJSONParserSBJSON.a in Frameworks */,
+				A1D201EB1381EA09003BC230 /* libRestKitXMLParserLibxml.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

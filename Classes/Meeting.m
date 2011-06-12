@@ -11,13 +11,17 @@
 
 @implementation Meeting
 
-@synthesize title;
 @synthesize subject;
+@synthesize body;
+@synthesize location;
 @synthesize number;
 @synthesize code;
 @synthesize leadercode;
 @synthesize date;
-@synthesize strdate;
+@synthesize strStartDate;
 @synthesize host;
+@synthesize strEndDate;
+@synthesize organizer;
+@synthesize particpants;
 
 @end

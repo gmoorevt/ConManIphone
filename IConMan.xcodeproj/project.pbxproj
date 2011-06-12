@@ -16,9 +16,20 @@
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
 		A1708979137713820069EB8E /* Meeting.m in Sources */ = {isa = PBXBuildFile; fileRef = A1708978137713820069EB8E /* Meeting.m */; };
+		A1D2014C13815115003BC230 /* MeetingDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D2014B13815115003BC230 /* MeetingDetail.m */; };
+		A1D201941381E637003BC230 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D201931381E637003BC230 /* CFNetwork.framework */; };
+		A1D201981381E645003BC230 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D201971381E645003BC230 /* SystemConfiguration.framework */; };
+		A1D2019C1381E655003BC230 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D2019B1381E655003BC230 /* MobileCoreServices.framework */; };
+		A1D201A01381E661003BC230 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D2019F1381E661003BC230 /* CoreData.framework */; };
+		A1D201F71381EAF4003BC230 /* libRestKitJSONParserYAJL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D2FF3813785308003BC230 /* libRestKitJSONParserYAJL.a */; };
+		A1D20B7F1387FFFB003BC230 /* libjson.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D20B7C1387FFF0003BC230 /* libjson.a */; };
+		A1D20CC813885D3D003BC230 /* conference_calls.json in Resources */ = {isa = PBXBuildFile; fileRef = A1D20CC713885D3D003BC230 /* conference_calls.json */; };
+		A1D20ECD138BF9A7003BC230 /* temp_conf_call.json in Resources */ = {isa = PBXBuildFile; fileRef = A1D20ECC138BF9A7003BC230 /* temp_conf_call.json */; };
+		A1D20FA0138C4E09003BC230 /* Conference-Device.gif in Resources */ = {isa = PBXBuildFile; fileRef = A1D20F9F138C4E09003BC230 /* Conference-Device.gif */; };
+		A1D20FA6138C4F03003BC230 /* 1306085556_Conference Device.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D20FA5138C4F03003BC230 /* 1306085556_Conference Device.png */; };
+		A1D21084138C8FF1003BC230 /* Phone.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D21083138C8FF1003BC230 /* Phone.png */; };
 		A1D2FF1D13785098003BC230 /* ConManConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D2FF1C13785098003BC230 /* ConManConnector.m */; };
 		A1D2FF4513785319003BC230 /* libRestKitCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D2FF4013785308003BC230 /* libRestKitCoreData.a */; };
-		A1D2FF461378531C003BC230 /* libRestKitJSONParserJSONKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D2FF3C13785308003BC230 /* libRestKitJSONParserJSONKit.a */; };
 		A1D2FF4713785320003BC230 /* libRestKitNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D2FF3213785308003BC230 /* libRestKitNetwork.a */; };
 		A1D2FF4813785321003BC230 /* libRestKitObjectMapping.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D2FF3413785308003BC230 /* libRestKitObjectMapping.a */; };
 		A1D2FF4913785324003BC230 /* libRestKitSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D2FF3613785308003BC230 /* libRestKitSupport.a */; };
@@ -29,6 +40,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A1D201911381E61A003BC230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D2FF1E13785307003BC230 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 255B7588133BABBF00ED76AD;
+			remoteInfo = RestKit;
+		};
+		A1D20B771387FFF0003BC230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D20B6B1387FFF0003BC230 /* JSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53D229810C96121600276605;
+			remoteInfo = JSON;
+		};
+		A1D20B791387FFF0003BC230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D20B6B1387FFF0003BC230 /* JSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53D2298D0C96122A00276605;
+			remoteInfo = Tests;
+		};
+		A1D20B7B1387FFF0003BC230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D20B6B1387FFF0003BC230 /* JSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FE2BBD800D8B0D3900184787;
+			remoteInfo = libjson;
+		};
+		A1D20B7D1387FFF0003BC230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D20B6B1387FFF0003BC230 /* JSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FE2BBDAB0D8B0EE000184787;
+			remoteInfo = libjsontests;
+		};
+		A1D20B8013880031003BC230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D20B6B1387FFF0003BC230 /* JSON.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2BBD7F0D8B0D3900184787;
+			remoteInfo = libjson;
+		};
 		A1D2FF3113785308003BC230 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A1D2FF1E13785307003BC230 /* RestKit.xcodeproj */;
@@ -117,6 +170,20 @@
 		8D1107310486CEB800E47090 /* IConMan-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IConMan-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		A1708977137713820069EB8E /* Meeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meeting.h; sourceTree = "<group>"; };
 		A1708978137713820069EB8E /* Meeting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meeting.m; sourceTree = "<group>"; };
+		A1D2014A13815115003BC230 /* MeetingDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetingDetail.h; sourceTree = "<group>"; };
+		A1D2014B13815115003BC230 /* MeetingDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetingDetail.m; sourceTree = "<group>"; };
+		A1D201931381E637003BC230 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A1D201971381E645003BC230 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A1D2019B1381E655003BC230 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A1D2019F1381E661003BC230 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A1D20B6B1387FFF0003BC230 /* JSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JSON.xcodeproj; path = "Library/JSON v3.0beta1 (iOS)/JSON.xcodeproj"; sourceTree = "<group>"; };
+		A1D20C7A138854B1003BC230 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.json; sourceTree = "<group>"; };
+		A1D20CC713885D3D003BC230 /* conference_calls.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = conference_calls.json; sourceTree = "<group>"; };
+		A1D20CC913886491003BC230 /* data2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data2.json; sourceTree = "<group>"; };
+		A1D20ECC138BF9A7003BC230 /* temp_conf_call.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = temp_conf_call.json; sourceTree = "<group>"; };
+		A1D20F9F138C4E09003BC230 /* Conference-Device.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Conference-Device.gif"; sourceTree = "<group>"; };
+		A1D20FA5138C4F03003BC230 /* 1306085556_Conference Device.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1306085556_Conference Device.png"; sourceTree = "<group>"; };
+		A1D21083138C8FF1003BC230 /* Phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Phone.png; sourceTree = "<group>"; };
 		A1D2FF1B13785098003BC230 /* ConManConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConManConnector.h; sourceTree = "<group>"; };
 		A1D2FF1C13785098003BC230 /* ConManConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConManConnector.m; sourceTree = "<group>"; };
 		A1D2FF1E13785307003BC230 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = Library/RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
@@ -138,10 +205,15 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
 				A1D2FF4513785319003BC230 /* libRestKitCoreData.a in Frameworks */,
-				A1D2FF461378531C003BC230 /* libRestKitJSONParserJSONKit.a in Frameworks */,
 				A1D2FF4713785320003BC230 /* libRestKitNetwork.a in Frameworks */,
 				A1D2FF4813785321003BC230 /* libRestKitObjectMapping.a in Frameworks */,
 				A1D2FF4913785324003BC230 /* libRestKitSupport.a in Frameworks */,
+				A1D201941381E637003BC230 /* CFNetwork.framework in Frameworks */,
+				A1D201981381E645003BC230 /* SystemConfiguration.framework in Frameworks */,
+				A1D2019C1381E655003BC230 /* MobileCoreServices.framework in Frameworks */,
+				A1D201A01381E661003BC230 /* CoreData.framework in Frameworks */,
+				A1D201F71381EAF4003BC230 /* libRestKitJSONParserYAJL.a in Frameworks */,
+				A1D20B7F1387FFFB003BC230 /* libjson.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +236,8 @@
 				A1D2FF1C13785098003BC230 /* ConManConnector.m */,
 				A1D2FF6D137854A8003BC230 /* MeetingFinder.h */,
 				A1D2FF6E137854A8003BC230 /* MeetingFinder.m */,
+				A1D2014A13815115003BC230 /* MeetingDetail.h */,
+				A1D2014B13815115003BC230 /* MeetingDetail.m */,
 				A1D2FFC0137DCCA6003BC230 /* MeetingCell.h */,
 				A1D2FFC1137DCCA6003BC230 /* MeetingCell.m */,
 			);
@@ -181,12 +255,18 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				A1D20B6B1387FFF0003BC230 /* JSON.xcodeproj */,
 				A1D2FF1E13785307003BC230 /* RestKit.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
+				A1D21083138C8FF1003BC230 /* Phone.png */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				A1D201931381E637003BC230 /* CFNetwork.framework */,
+				A1D201971381E645003BC230 /* SystemConfiguration.framework */,
+				A1D2019B1381E655003BC230 /* MobileCoreServices.framework */,
+				A1D2019F1381E661003BC230 /* CoreData.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -203,9 +283,15 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A1D20CC713885D3D003BC230 /* conference_calls.json */,
+				A1D20FA5138C4F03003BC230 /* 1306085556_Conference Device.png */,
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* IConMan-Info.plist */,
+				A1D20F9F138C4E09003BC230 /* Conference-Device.gif */,
+				A1D20C7A138854B1003BC230 /* data.json */,
+				A1D20CC913886491003BC230 /* data2.json */,
+				A1D20ECC138BF9A7003BC230 /* temp_conf_call.json */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -218,6 +304,17 @@
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1D20B6C1387FFF0003BC230 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1D20B781387FFF0003BC230 /* JSON.framework */,
+				A1D20B7A1387FFF0003BC230 /* Tests.octest */,
+				A1D20B7C1387FFF0003BC230 /* libjson.a */,
+				A1D20B7E1387FFF0003BC230 /* libjsontests.octest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		A1D2FF1F13785307003BC230 /* Products */ = {
@@ -251,6 +348,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				A1D201921381E61A003BC230 /* PBXTargetDependency */,
+				A1D20B8113880031003BC230 /* PBXTargetDependency */,
 			);
 			name = IConMan;
 			productName = IConMan;
@@ -277,6 +376,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = A1D20B6C1387FFF0003BC230 /* Products */;
+					ProjectRef = A1D20B6B1387FFF0003BC230 /* JSON.xcodeproj */;
+				},
+				{
 					ProductGroup = A1D2FF1F13785307003BC230 /* Products */;
 					ProjectRef = A1D2FF1E13785307003BC230 /* RestKit.xcodeproj */;
 				},
@@ -289,6 +392,34 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		A1D20B781387FFF0003BC230 /* JSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JSON.framework;
+			remoteRef = A1D20B771387FFF0003BC230 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1D20B7A1387FFF0003BC230 /* Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Tests.octest;
+			remoteRef = A1D20B791387FFF0003BC230 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1D20B7C1387FFF0003BC230 /* libjson.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjson.a;
+			remoteRef = A1D20B7B1387FFF0003BC230 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1D20B7E1387FFF0003BC230 /* libjsontests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = libjsontests.octest;
+			remoteRef = A1D20B7D1387FFF0003BC230 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		A1D2FF3213785308003BC230 /* libRestKitNetwork.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -369,6 +500,11 @@
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
 				A1D2FFDC137EDB0B003BC230 /* MeetingViewController.xib in Resources */,
+				A1D20CC813885D3D003BC230 /* conference_calls.json in Resources */,
+				A1D20ECD138BF9A7003BC230 /* temp_conf_call.json in Resources */,
+				A1D20FA0138C4E09003BC230 /* Conference-Device.gif in Resources */,
+				A1D20FA6138C4F03003BC230 /* 1306085556_Conference Device.png in Resources */,
+				A1D21084138C8FF1003BC230 /* Phone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,10 +523,24 @@
 				A1D2FF6F137854A8003BC230 /* MeetingFinder.m in Sources */,
 				A1D2FFC2137DCCA6003BC230 /* MeetingCell.m in Sources */,
 				A1D2FFD9137EDAF7003BC230 /* MeetingViewController.m in Sources */,
+				A1D2014C13815115003BC230 /* MeetingDetail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1D201921381E61A003BC230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = A1D201911381E61A003BC230 /* PBXContainerItemProxy */;
+		};
+		A1D20B8113880031003BC230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libjson;
+			targetProxy = A1D20B8013880031003BC230 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
@@ -402,7 +552,22 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = IConMan_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					/tmp/JSON.dst/usr/local/include,
+					Library/RestKit/Build,
+				);
 				INFOPLIST_FILE = "IConMan-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/objective_resource/Classes/lib/objective_support/google_toolbar/TigerGcov\"",
+					"\"$(SRCROOT)/objective_resource/google_toolbar/TigerGcov\"",
+					"\"$(SRCROOT)/JSON v3.0beta1 (iOS)/build/Debug-iphonesimulator\"",
+					"\"$(SRCROOT)/JSON v3.0beta1 (iOS)/build/UninstalledProducts\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = IConMan;
 			};
 			name = Debug;
@@ -414,7 +579,22 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = IConMan_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					/tmp/JSON.dst/usr/local/include,
+					Library/RestKit/Build,
+				);
 				INFOPLIST_FILE = "IConMan-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/objective_resource/Classes/lib/objective_support/google_toolbar/TigerGcov\"",
+					"\"$(SRCROOT)/objective_resource/google_toolbar/TigerGcov\"",
+					"\"$(SRCROOT)/JSON v3.0beta1 (iOS)/build/Debug-iphonesimulator\"",
+					"\"$(SRCROOT)/JSON v3.0beta1 (iOS)/build/UninstalledProducts\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = IConMan;
 				VALIDATE_PRODUCT = YES;
 			};

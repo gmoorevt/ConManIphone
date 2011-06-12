@@ -1,0 +1,51 @@
+TTwitterStream
+v7
+r1
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/MainWindow.xib
+c000000004D4569480000000000004E71
+t1296394568
+s20081
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/TwitterStreamViewController.xib
+c000000004D456948000000000000675F
+t1296394568
+s26463
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug/TwitterStream.app
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug/TwitterStream.app/Contents/Info.plist
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug/TwitterStream.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug/TwitterStream.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug/TwitterStream.app/Contents/Resources/TwitterStreamViewController.nib
+t2
+s0
+
+NTwitterStream-Info.plist
+c000000004D456948000000000000038D
+t1296394568
+s909
+
+CCompileXIB "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/TwitterStreamViewController.xib"
+r0
+
+CProcessInfoPlistFile "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug/TwitterStream.app/Contents/Info.plist" TwitterStream-Info.plist
+r0
+
+CTouch "/Users/GMoore/Downloads/JSON v3.0beta1 (iOS)/Examples/iOS/TwitterStream/build/Debug/TwitterStream.app"
+r0
+

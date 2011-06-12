@@ -11,15 +11,16 @@
 
 @interface MeetingCell : UITableViewCell 
 {
-	UILabel *titleLabel;
+
 	UILabel *subjectLabel;
 	UILabel *timeLabel;
+	UIImageView *callView;
 	NSString *number;
 
 }
 
 //delcare all the UILable instance variables as properties
-@property(nonatomic, readonly)UILabel *titleLabel;
+
 @property(nonatomic, readonly)UILabel *subjectLabel;
 @property(nonatomic, readonly)UILabel *timeLabel;
 @property(nonatomic, retain)NSString *number;

@@ -8,18 +8,13 @@
 
 #import "RootViewController.h"
 
-
 static const int rowHeight = 68;  //the height of each row in the table
-
-
 @implementation RootViewController
 
 @synthesize meetings;
 
-
 #pragma mark -
 #pragma mark View lifecycle
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -91,17 +86,22 @@ static const int rowHeight = 68;  //the height of each row in the table
 	Meeting *meeting = [meetings objectAtIndex:indexPath.row];
 	
 	//set all the labels on the cell to correspond with the Meeting
-	cell.timeLabel.text = meeting.strdate;
+	cell.timeLabel.text = meeting.strStartDate;
 	cell.subjectLabel.text = meeting.subject;
-	cell.titleLabel.text = meeting.title;
+	
 	
 	cell.number = meeting.number;
+	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	
 	return cell; //return the configured cell.
 }
 
 //calle dwhen the user touches a cell
-
+-(void)viewMeeting
+{
+	//create new addView Controler
+	
+}
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:
 	(NSIndexPath *)indexPath
@@ -109,6 +109,10 @@ static const int rowHeight = 68;  //the height of each row in the table
 	
 	//get the meeting object for the cell at the given index
 	Meeting *meeting = [meetings objectAtIndex:indexPath.row];
+	
+	
+	
+	/*
 	NSString *dialUrl = @"tel:";
 	
 	NSString *dialNumber = [dialUrl stringByAppendingString:meeting.number];
@@ -121,6 +125,7 @@ static const int rowHeight = 68;  //the height of each row in the table
 		[Notpermitted show];
 		[Notpermitted release];
 	}
+	 */
 }
 
 

@@ -24,5 +24,6 @@
 @property (nonatomic, retain) NSArray *meetings;
 
 -(void)refreshMeetings;  //refreshes the list of meetings
+-(void)viewMeeting; //loads meeting view
 
 @end  //end of root controler

@@ -1,0 +1,29 @@
+[{conference_call:
+	{location:"The location of this call",
+	subject:"This is the subject of the call",
+	body:"This is the subject of the call",
+	number:"855-725-8888",
+	passcode:"1234",
+	hostcode:"5678",
+	orginiser:
+		{firstname:"George",
+		lastname:"Moore",
+		email:"g.moore@elsevier.com"
+		},
+		[
+		{participants:{firstname:"Jeff",
+		lastname:"keating",
+		email:"j.keating@elsevier.com"},
+		{firstname:"George",
+		lastname:"Moore",
+		email:"geody.moore@gmail.com"}
+		},
+		{firstname:"Geody",
+		lastname:"moore",
+		email:"geody.moore@gmail.com",
+		}
+		]
+	}
+}
+]
+		
