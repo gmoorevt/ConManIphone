@@ -25,45 +25,12 @@
 						 @"http://smooth-sword-960.heroku.com" username:@"gmoore" password:@"welcome"];
 	 
 	 NSLog(@"I am your client : %@", [RKClient sharedClient]);
-	 //params = [NSDictionary dictionaryWithObjectsAndKeys:@"login",@"gmoore",@"format",@"xml",nil]
-	// [[RKClient sharedClient]get:@"/test_rest_endpoints?login=gmoore;format=json"  delegate:self];
-	[[RKClient sharedClient]get:@"/users/3/conference_calls?q=all;format=json"  delegate:self];
-
+	 
+	 [[RKClient sharedClient]get:@"/users/3/conference_calls?q=all;format=json"  delegate:self];
 	 
 	 NSLog(@"Get message Sent to Client, waiting for respose delegate to respond");
 	// Test Connection 
 	
-	/*
-	NSString *filePath = [[NSBundle mainBundle]pathForResource:@"conference_calls" ofType:@"json"];
-	NSString *fileContent =[[NSString alloc]initWithContentsOfFile:filePath];	
-	
-	// Parse the resutls string using json-framework 
-	parser = [SBJsonParser new];
-	NSArray *results = [parser objectWithString:fileContent];
-	
-	//Go throught all of the meeitngs results and create meeting objects
-	
-	for (NSDictionary*call in results) 
-	{
-		
-		NSDictionary *calldetails = [call objectForKey:@"conference_call"];
-		NSDictionary *orginizer = [calldetails objectForKey:@"organizer"];
-		NSDictionary *dial = [calldetails objectForKey:@"dialing_pattern"];	
-		
-		meeting =[[Meeting alloc]init];  //create new meeting object
-		meeting.location = [calldetails objectForKey:@"location"];
-		meeting.subject = [calldetails objectForKey:@"summary"];
-		meeting.body = [calldetails objectForKey:@"description"];
-		meeting.strStartDate = [calldetails objectForKey:@"start_dttm"];
-		meeting.strEndDate = [calldetails objectForKey:@"end_dttm"];
-		meeting.number = [dial objectForKey:@"phone_number"],[dial objectForKey:@"general_passcode"];
-		meeting.organizer = [orginizer objectForKey: @"first_name"];
-		
-		[meetings addObject:meeting];
-		[meeting release];
-	}
-	 */
-	//[delegate meetingFinder:self didFindMeetings:[meetings autorelease]];
 	
 }
 -(void)TestParse:(NSString *)response
@@ -110,9 +77,15 @@
 	
 }
 -(void)requestDidTimeout:(RKRequest *)request{
+	UIAlertView *ErrorMsg =[[UIAlertView alloc]initWithTitle:@"Error" message:@"Timed out waiting for the server" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+	[ErrorMsg show];
+	[ErrorMsg release];
 }
 -(void)request:(RKRequest *)request didFailLoadWithError:(NSError *)error;
 {
+	UIAlertView *ErrorMsg =[[UIAlertView alloc]initWithTitle:@"Error" message:[error description] delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+	[ErrorMsg show];
+	[ErrorMsg release];
 }
 
 -(void)request:(RKRequest*)request didLoadResponse:(RKResponse*)response 
